@@ -1,0 +1,12 @@
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\AppGestionDeTesis.exe.config
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\AppGestionDeTesis.exe
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\AppGestionDeTesis.pdb
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csprojAssemblyReference.cache
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.Properties.Resources.resources
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.GenerateResource.cache
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.exe
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.pdb
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\CapaFormularios.dll
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\CapaFormularios.pdb
+C:\Users\ALEX\Desktop\DS-I\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.CopyComplete
