@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CConexion.cs" />
+    <Compile Include="CDocente.cs" />
+    <Compile Include="CEntidad.cs" />
+    <Compile Include="CTesis.cs" />
+    <Compile Include="CTesista.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

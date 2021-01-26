@@ -71,9 +71,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CapaFormularios\CapaFormularios.csproj">
+    <ProjectReference Include="..\CapaFormularios\LibFormularios.csproj">
       <Project>{92bfdfd7-2bba-4960-ba5b-ae14a9bb91eb}</Project>
-      <Name>CapaFormularios</Name>
+      <Name>LibFormularios</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

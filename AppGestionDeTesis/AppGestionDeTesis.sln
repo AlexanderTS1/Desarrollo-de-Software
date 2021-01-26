@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppGestionDeTesis", "AppGestionDeTesis\AppGestionDeTesis.csproj", "{5C38A6C2-CD8D-4723-9D7D-902F5541F93F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaClases", "CapaClases\CapaClases.csproj", "{8CEE5850-C91C-4E79-865C-E6641F28BA51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibClases", "CapaClases\LibClases.csproj", "{8CEE5850-C91C-4E79-865C-E6641F28BA51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaFormularios", "CapaFormularios\CapaFormularios.csproj", "{92BFDFD7-2BBA-4960-BA5B-AE14A9BB91EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibFormularios", "CapaFormularios\LibFormularios.csproj", "{92BFDFD7-2BBA-4960-BA5B-AE14A9BB91EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

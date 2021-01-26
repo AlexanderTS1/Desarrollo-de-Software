@@ -3,21 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 namespace LibClases
 {
-	public class CDocente : CEntidad
+	public class CTesis : CEntidad
 	{
 		//=============== ATRIBUTOS =======================
 		//-- Todos heredados de CEntidad ----
 		//================ METODOS ========================
 		//-------------- Constructores --------------------
-		public CDocente() : base("Docente", false)
+		public CTesis() : base("Tesis", false)
 		{
 		}
 		//------ Implementación de metodos abstractos -----
 		public override string[] NombresAtributos()
 		{
-			return new string[] { "CodDocente", "ApellidoPaterno", "ApellidoMaterno", "Nombres", "Categoria", "Departamento" };
+			return new string[] { "CodTesista", "ApellidoPaterno", "ApellidoMaterno", "Nombres", "Categoria", "Departamento" };
 		}
 
 	}

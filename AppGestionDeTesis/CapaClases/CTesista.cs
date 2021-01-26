@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 namespace LibClases
 {
-	public class CDocente : CEntidad
+	public class CTesista : CEntidad
 	{
 		//=============== ATRIBUTOS =======================
 		//-- Todos heredados de CEntidad ----
 		//================ METODOS ========================
 		//-------------- Constructores --------------------
-		public CDocente() : base("Docente", false)
+		public CTesista() : base("Docente", false)
 		{
 		}
 		//------ Implementación de metodos abstractos -----
