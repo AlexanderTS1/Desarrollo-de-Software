@@ -16,7 +16,7 @@ namespace AppGestionDeTesis
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CapaFormularios.pr());
+            Application.Run(new Form1());
         }
     }
 }

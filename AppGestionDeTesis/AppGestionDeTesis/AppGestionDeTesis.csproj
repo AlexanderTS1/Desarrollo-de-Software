@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C38A6C2-CD8D-4723-9D7D-902F5541F93F}</ProjectGuid>
+    <ProjectGuid>{742CCE65-8466-4459-8FE0-E61CC523CA05}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>AppGestionDeTesis</RootNamespace>
     <AssemblyName>AppGestionDeTesis</AssemblyName>
@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -69,12 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CapaFormularios\LibFormularios.csproj">
-      <Project>{92bfdfd7-2bba-4960-ba5b-ae14a9bb91eb}</Project>
-      <Name>LibFormularios</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
