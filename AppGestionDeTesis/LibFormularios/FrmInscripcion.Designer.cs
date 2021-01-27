@@ -76,6 +76,15 @@ namespace LibFormularios
             ((System.ComponentModel.ISupportInitialize)(this.DgvTesis)).BeginInit();
             this.SuspendLayout();
             // 
+            // panel1
+            // 
+            this.panel1.Size = new System.Drawing.Size(841, 752);
+            // 
+            // LblTitulo
+            // 
+            this.LblTitulo.Size = new System.Drawing.Size(841, 55);
+            this.LblTitulo.Text = "INSCRIPCIÓN DEL PLAN DE TESIS";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -509,8 +518,10 @@ namespace LibFormularios
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Name = "FrmInscripcion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmInscripcion";
             this.Load += new System.EventHandler(this.FrmInscripcion_Load);
+            this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.groupBox2, 0);
             this.Controls.SetChildIndex(this.groupBox3, 0);
             this.Controls.SetChildIndex(this.groupBox1, 0);

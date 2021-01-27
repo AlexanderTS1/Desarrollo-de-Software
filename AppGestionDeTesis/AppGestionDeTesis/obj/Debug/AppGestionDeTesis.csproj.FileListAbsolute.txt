@@ -12,3 +12,4 @@ C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGesti
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibClases.pdb
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibFormularios.pdb
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.CopyComplete
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.FrmInicio.resources

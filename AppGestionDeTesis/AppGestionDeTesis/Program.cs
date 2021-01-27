@@ -17,7 +17,7 @@ namespace AppGestionDeTesis
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmInscripcion());
+            Application.Run(new FrmInicio());
         }
     }
 }
