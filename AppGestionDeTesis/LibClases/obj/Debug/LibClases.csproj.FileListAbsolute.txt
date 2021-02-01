@@ -1,5 +1,5 @@
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.dll
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.pdb
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.dll
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.pdb

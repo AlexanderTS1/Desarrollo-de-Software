@@ -24,5 +24,12 @@ namespace AppGestionDeTesis
             FrmInscripcion aInscripción = new FrmInscripcion();
             aInscripción.Show();
         }
+
+        private void BtnDocentes_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmDocente aDocentes = new FrmDocente();
+            aDocentes.Show();
+        }
     }
 }

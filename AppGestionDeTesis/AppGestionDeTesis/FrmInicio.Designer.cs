@@ -38,7 +38,9 @@ namespace AppGestionDeTesis
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.BtnInscribirPlanDeTesis = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnDocentes = new System.Windows.Forms.Button();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
@@ -120,6 +122,7 @@ namespace AppGestionDeTesis
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.BtnInscribirPlanDeTesis, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.BtnDocentes, 0, 2);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -155,20 +158,50 @@ namespace AppGestionDeTesis
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // BtnDocentes
+            // 
+            this.BtnDocentes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.BtnDocentes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BtnDocentes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDocentes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnDocentes.Location = new System.Drawing.Point(3, 533);
+            this.BtnDocentes.Name = "BtnDocentes";
+            this.BtnDocentes.Size = new System.Drawing.Size(397, 42);
+            this.BtnDocentes.TabIndex = 2;
+            this.BtnDocentes.Text = "DOCENTES";
+            this.BtnDocentes.UseVisualStyleBackColor = false;
+            this.BtnDocentes.Click += new System.EventHandler(this.BtnDocentes_Click);
+            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.button1, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.groupBox1, 0, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(412, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 3;
+            this.tableLayoutPanel3.RowCount = 5;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.67866F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75.32133F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 162F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 99F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(404, 578);
             this.tableLayoutPanel3.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(3, 477);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(398, 50);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "INICIAR";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
@@ -180,9 +213,9 @@ namespace AppGestionDeTesis
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(3, 105);
+            this.groupBox1.Location = new System.Drawing.Point(3, 95);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(398, 307);
+            this.groupBox1.Size = new System.Drawing.Size(398, 277);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Seguiemiento";
@@ -201,7 +234,7 @@ namespace AppGestionDeTesis
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(63, 224);
+            this.radioButton4.Location = new System.Drawing.Point(63, 223);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(111, 21);
             this.radioButton4.TabIndex = 5;
@@ -212,7 +245,7 @@ namespace AppGestionDeTesis
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(63, 188);
+            this.radioButton3.Location = new System.Drawing.Point(63, 187);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(197, 21);
             this.radioButton3.TabIndex = 4;
@@ -223,7 +256,7 @@ namespace AppGestionDeTesis
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(63, 149);
+            this.radioButton2.Location = new System.Drawing.Point(63, 151);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(79, 21);
             this.radioButton2.TabIndex = 3;
@@ -244,7 +277,7 @@ namespace AppGestionDeTesis
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(172, 50);
+            this.textBox1.Location = new System.Drawing.Point(174, 50);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(173, 22);
             this.textBox1.TabIndex = 1;
@@ -300,6 +333,8 @@ namespace AppGestionDeTesis
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnDocentes;
     }
 }

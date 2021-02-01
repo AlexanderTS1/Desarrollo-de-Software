@@ -133,14 +133,14 @@ namespace LibFormularios
             // 
             // TxtCorreoTesista1
             // 
-            this.TxtCorreoTesista1.Location = new System.Drawing.Point(514, 141);
+            this.TxtCorreoTesista1.Location = new System.Drawing.Point(514, 140);
             this.TxtCorreoTesista1.Name = "TxtCorreoTesista1";
             this.TxtCorreoTesista1.Size = new System.Drawing.Size(259, 22);
             this.TxtCorreoTesista1.TabIndex = 18;
             // 
             // TxtApellidosTesista1
             // 
-            this.TxtApellidosTesista1.Location = new System.Drawing.Point(514, 99);
+            this.TxtApellidosTesista1.Location = new System.Drawing.Point(514, 102);
             this.TxtApellidosTesista1.Name = "TxtApellidosTesista1";
             this.TxtApellidosTesista1.Size = new System.Drawing.Size(259, 22);
             this.TxtApellidosTesista1.TabIndex = 17;
@@ -172,16 +172,16 @@ namespace LibFormularios
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(330, 62);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(158, 20);
+            this.label10.Size = new System.Drawing.Size(164, 20);
             this.label10.TabIndex = 12;
-            this.label10.Text = "Grado Académico";
+            this.label10.Text = "Grado Académico:";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(419, 143);
+            this.label9.Location = new System.Drawing.Point(419, 142);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(69, 20);
             this.label9.TabIndex = 11;
@@ -192,7 +192,7 @@ namespace LibFormularios
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(16, 143);
+            this.label8.Location = new System.Drawing.Point(16, 141);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(87, 20);
             this.label8.TabIndex = 10;
@@ -203,7 +203,7 @@ namespace LibFormularios
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(56, 62);
+            this.label7.Location = new System.Drawing.Point(56, 65);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(47, 20);
             this.label7.TabIndex = 9;
@@ -214,7 +214,7 @@ namespace LibFormularios
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(396, 99);
+            this.label6.Location = new System.Drawing.Point(396, 102);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(92, 20);
             this.label6.TabIndex = 8;
@@ -225,7 +225,7 @@ namespace LibFormularios
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(23, 99);
+            this.label5.Location = new System.Drawing.Point(23, 103);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(80, 20);
             this.label5.TabIndex = 7;
@@ -286,14 +286,14 @@ namespace LibFormularios
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(515, 144);
+            this.textBox8.Location = new System.Drawing.Point(515, 143);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(259, 22);
             this.textBox8.TabIndex = 32;
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(515, 102);
+            this.textBox11.Location = new System.Drawing.Point(515, 105);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(259, 22);
             this.textBox11.TabIndex = 31;
@@ -307,14 +307,14 @@ namespace LibFormularios
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(125, 100);
+            this.textBox13.Location = new System.Drawing.Point(125, 106);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(165, 22);
             this.textBox13.TabIndex = 29;
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(125, 63);
+            this.textBox14.Location = new System.Drawing.Point(125, 68);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 22);
             this.textBox14.TabIndex = 28;
@@ -325,16 +325,16 @@ namespace LibFormularios
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(332, 65);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(158, 20);
+            this.label11.Size = new System.Drawing.Size(164, 20);
             this.label11.TabIndex = 27;
-            this.label11.Text = "Grado Académico";
+            this.label11.Text = "Grado Académico:";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(421, 146);
+            this.label12.Location = new System.Drawing.Point(427, 145);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(69, 20);
             this.label12.TabIndex = 26;
@@ -345,7 +345,7 @@ namespace LibFormularios
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(24, 146);
+            this.label13.Location = new System.Drawing.Point(24, 144);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(87, 20);
             this.label13.TabIndex = 25;
@@ -356,7 +356,7 @@ namespace LibFormularios
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(64, 65);
+            this.label14.Location = new System.Drawing.Point(64, 68);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(47, 20);
             this.label14.TabIndex = 24;
@@ -367,7 +367,7 @@ namespace LibFormularios
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(398, 102);
+            this.label15.Location = new System.Drawing.Point(404, 105);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(92, 20);
             this.label15.TabIndex = 23;
@@ -378,7 +378,7 @@ namespace LibFormularios
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(31, 102);
+            this.label16.Location = new System.Drawing.Point(31, 106);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(80, 20);
             this.label16.TabIndex = 22;
@@ -506,7 +506,7 @@ namespace LibFormularios
             this.DgvTesis.ReadOnly = true;
             this.DgvTesis.RowHeadersWidth = 51;
             this.DgvTesis.RowTemplate.Height = 24;
-            this.DgvTesis.Size = new System.Drawing.Size(802, 97);
+            this.DgvTesis.Size = new System.Drawing.Size(813, 97);
             this.DgvTesis.TabIndex = 11;
             // 
             // FrmInscripcion

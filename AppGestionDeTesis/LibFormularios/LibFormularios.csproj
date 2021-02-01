@@ -44,6 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="FrmDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDocente.Designer.cs">
+      <DependentUpon>FrmDocente.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FrmDocente.resx">
+      <DependentUpon>FrmDocente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmInscripcion.resx">
       <DependentUpon>FrmInscripcion.cs</DependentUpon>
     </EmbeddedResource>

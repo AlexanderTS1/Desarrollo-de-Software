@@ -85,9 +85,9 @@ namespace LibFormularios
             // BtnGuardar
             // 
             this.BtnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGuardar.Location = new System.Drawing.Point(686, 18);
+            this.BtnGuardar.Location = new System.Drawing.Point(668, 15);
             this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(87, 31);
+            this.BtnGuardar.Size = new System.Drawing.Size(125, 31);
             this.BtnGuardar.TabIndex = 5;
             this.BtnGuardar.Text = "Guardar";
             this.BtnGuardar.UseVisualStyleBackColor = true;
@@ -96,7 +96,7 @@ namespace LibFormularios
             // BtnNuevo
             // 
             this.BtnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnNuevo.Location = new System.Drawing.Point(584, 18);
+            this.BtnNuevo.Location = new System.Drawing.Point(546, 15);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(87, 31);
             this.BtnNuevo.TabIndex = 4;
