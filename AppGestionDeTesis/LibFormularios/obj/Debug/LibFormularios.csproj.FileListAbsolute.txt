@@ -11,3 +11,5 @@ C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormu
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources

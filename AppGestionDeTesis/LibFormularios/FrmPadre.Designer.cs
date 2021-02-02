@@ -98,7 +98,7 @@ namespace LibFormularios
             this.BtnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNuevo.Location = new System.Drawing.Point(546, 15);
             this.BtnNuevo.Name = "BtnNuevo";
-            this.BtnNuevo.Size = new System.Drawing.Size(87, 31);
+            this.BtnNuevo.Size = new System.Drawing.Size(109, 31);
             this.BtnNuevo.TabIndex = 4;
             this.BtnNuevo.Text = "Nuevo";
             this.BtnNuevo.UseVisualStyleBackColor = true;

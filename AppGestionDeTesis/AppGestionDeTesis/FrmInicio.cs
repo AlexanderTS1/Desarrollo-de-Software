@@ -31,5 +31,19 @@ namespace AppGestionDeTesis
             FrmDocente aDocentes = new FrmDocente();
             aDocentes.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmTesista oTesistas= new FrmTesista();
+            oTesistas.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmTesis oTesis = new FrmTesis();
+            oTesis.Show();
+        }
     }
 }

@@ -62,6 +62,18 @@
     <Compile Include="FrmPadre.Designer.cs">
       <DependentUpon>FrmPadre.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmTesis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTesis.Designer.cs">
+      <DependentUpon>FrmTesis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTesista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTesista.Designer.cs">
+      <DependentUpon>FrmTesista.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +85,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPadre.resx">
       <DependentUpon>FrmPadre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTesis.resx">
+      <DependentUpon>FrmTesis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTesista.resx">
+      <DependentUpon>FrmTesista.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
