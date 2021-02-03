@@ -53,20 +53,22 @@ namespace LibFormularios
             // 
             // panel1
             // 
-            this.panel1.Size = new System.Drawing.Size(958, 776);
+            this.panel1.Location = new System.Drawing.Point(0, 55);
+            this.panel1.Size = new System.Drawing.Size(962, 728);
             // 
             // LblTitulo
             // 
-            this.LblTitulo.Size = new System.Drawing.Size(958, 55);
+            this.LblTitulo.Size = new System.Drawing.Size(962, 55);
+            this.LblTitulo.Text = "DOCENTE";
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(0, 718);
-            this.panel4.Size = new System.Drawing.Size(958, 58);
+            this.panel4.Location = new System.Drawing.Point(0, 725);
+            this.panel4.Size = new System.Drawing.Size(962, 58);
             // 
             // TxtCategoria
             // 
-            this.TxtCategoria.Location = new System.Drawing.Point(430, 314);
+            this.TxtCategoria.Location = new System.Drawing.Point(430, 249);
             this.TxtCategoria.Name = "TxtCategoria";
             this.TxtCategoria.Size = new System.Drawing.Size(401, 22);
             this.TxtCategoria.TabIndex = 37;
@@ -74,7 +76,7 @@ namespace LibFormularios
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(313, 319);
+            this.label9.Location = new System.Drawing.Point(313, 254);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(73, 17);
             this.label9.TabIndex = 36;
@@ -82,7 +84,7 @@ namespace LibFormularios
             // 
             // TxtGradoAcademico
             // 
-            this.TxtGradoAcademico.Location = new System.Drawing.Point(430, 286);
+            this.TxtGradoAcademico.Location = new System.Drawing.Point(430, 221);
             this.TxtGradoAcademico.Name = "TxtGradoAcademico";
             this.TxtGradoAcademico.Size = new System.Drawing.Size(401, 22);
             this.TxtGradoAcademico.TabIndex = 35;
@@ -90,7 +92,7 @@ namespace LibFormularios
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(261, 289);
+            this.label8.Location = new System.Drawing.Point(261, 224);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(125, 17);
             this.label8.TabIndex = 34;
@@ -99,60 +101,61 @@ namespace LibFormularios
             // DgvDocente
             // 
             this.DgvDocente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvDocente.Location = new System.Drawing.Point(64, 465);
+            this.DgvDocente.Location = new System.Drawing.Point(12, 400);
             this.DgvDocente.Name = "DgvDocente";
             this.DgvDocente.ReadOnly = true;
             this.DgvDocente.RowHeadersWidth = 51;
             this.DgvDocente.RowTemplate.Height = 24;
-            this.DgvDocente.Size = new System.Drawing.Size(830, 165);
+            this.DgvDocente.Size = new System.Drawing.Size(938, 302);
             this.DgvDocente.TabIndex = 33;
             // 
             // TxtTelefono
             // 
-            this.TxtTelefono.Location = new System.Drawing.Point(430, 392);
+            this.TxtTelefono.Location = new System.Drawing.Point(430, 327);
             this.TxtTelefono.Name = "TxtTelefono";
             this.TxtTelefono.Size = new System.Drawing.Size(136, 22);
             this.TxtTelefono.TabIndex = 32;
             // 
             // TxtCorreo
             // 
-            this.TxtCorreo.Location = new System.Drawing.Point(430, 356);
+            this.TxtCorreo.Location = new System.Drawing.Point(430, 291);
             this.TxtCorreo.Name = "TxtCorreo";
             this.TxtCorreo.Size = new System.Drawing.Size(401, 22);
             this.TxtCorreo.TabIndex = 31;
             // 
             // TxtNombres
             // 
-            this.TxtNombres.Location = new System.Drawing.Point(430, 255);
+            this.TxtNombres.Location = new System.Drawing.Point(430, 190);
             this.TxtNombres.Name = "TxtNombres";
             this.TxtNombres.Size = new System.Drawing.Size(401, 22);
             this.TxtNombres.TabIndex = 30;
             // 
             // TxtApellidos
             // 
-            this.TxtApellidos.Location = new System.Drawing.Point(430, 219);
+            this.TxtApellidos.Location = new System.Drawing.Point(430, 154);
             this.TxtApellidos.Name = "TxtApellidos";
             this.TxtApellidos.Size = new System.Drawing.Size(401, 22);
             this.TxtApellidos.TabIndex = 29;
             // 
             // TxtDNI
             // 
-            this.TxtDNI.Location = new System.Drawing.Point(430, 183);
+            this.TxtDNI.Location = new System.Drawing.Point(430, 118);
             this.TxtDNI.Name = "TxtDNI";
             this.TxtDNI.Size = new System.Drawing.Size(136, 22);
             this.TxtDNI.TabIndex = 28;
             // 
             // TxtCodDocente
             // 
-            this.TxtCodDocente.Location = new System.Drawing.Point(430, 147);
+            this.TxtCodDocente.Location = new System.Drawing.Point(430, 82);
             this.TxtCodDocente.Name = "TxtCodDocente";
             this.TxtCodDocente.Size = new System.Drawing.Size(136, 22);
             this.TxtCodDocente.TabIndex = 27;
+            this.TxtCodDocente.Leave += new System.EventHandler(this.TxtCodDocente_Leave);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(336, 431);
+            this.label7.Location = new System.Drawing.Point(336, 366);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(50, 17);
             this.label7.TabIndex = 26;
@@ -166,7 +169,7 @@ namespace LibFormularios
             "Evaluador",
             "Dictaminante",
             "Jurado"});
-            this.CbxCargo.Location = new System.Drawing.Point(430, 428);
+            this.CbxCargo.Location = new System.Drawing.Point(430, 363);
             this.CbxCargo.Name = "CbxCargo";
             this.CbxCargo.Size = new System.Drawing.Size(136, 24);
             this.CbxCargo.TabIndex = 25;
@@ -174,7 +177,7 @@ namespace LibFormularios
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(258, 397);
+            this.label6.Location = new System.Drawing.Point(258, 332);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(128, 17);
             this.label6.TabIndex = 24;
@@ -183,7 +186,7 @@ namespace LibFormularios
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(331, 361);
+            this.label5.Location = new System.Drawing.Point(331, 296);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 17);
             this.label5.TabIndex = 23;
@@ -192,7 +195,7 @@ namespace LibFormularios
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(317, 258);
+            this.label4.Location = new System.Drawing.Point(317, 193);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 17);
             this.label4.TabIndex = 22;
@@ -201,7 +204,7 @@ namespace LibFormularios
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(317, 221);
+            this.label3.Location = new System.Drawing.Point(317, 156);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 17);
             this.label3.TabIndex = 21;
@@ -210,7 +213,7 @@ namespace LibFormularios
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(351, 184);
+            this.label2.Location = new System.Drawing.Point(351, 119);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 17);
             this.label2.TabIndex = 20;
@@ -219,7 +222,7 @@ namespace LibFormularios
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(252, 147);
+            this.label1.Location = new System.Drawing.Point(252, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 17);
             this.label1.TabIndex = 19;
@@ -229,7 +232,7 @@ namespace LibFormularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(958, 776);
+            this.ClientSize = new System.Drawing.Size(962, 783);
             this.Controls.Add(this.TxtCategoria);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.TxtGradoAcademico);
@@ -251,6 +254,7 @@ namespace LibFormularios
             this.Controls.Add(this.label1);
             this.Name = "FrmDocente";
             this.Text = "FrmDocente";
+            this.Load += new System.EventHandler(this.FrmInscripcion_Load);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.panel4, 0);
             this.Controls.SetChildIndex(this.label1, 0);

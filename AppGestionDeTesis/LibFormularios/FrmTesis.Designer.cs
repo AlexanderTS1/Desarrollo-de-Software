@@ -53,12 +53,17 @@ namespace LibFormularios
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.TxtCodTesis);
             this.panel1.Controls.Add(this.label20);
-            this.panel1.Size = new System.Drawing.Size(892, 688);
+            this.panel1.Size = new System.Drawing.Size(962, 783);
             // 
             // LblTitulo
             // 
-            this.LblTitulo.Size = new System.Drawing.Size(892, 55);
+            this.LblTitulo.Size = new System.Drawing.Size(962, 55);
             this.LblTitulo.Text = "TESIS";
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(0, 725);
+            this.panel4.Size = new System.Drawing.Size(962, 58);
             // 
             // TxtEstado
             // 
@@ -141,19 +146,19 @@ namespace LibFormularios
             // DgvTesis
             // 
             this.DgvTesis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvTesis.Location = new System.Drawing.Point(12, 372);
+            this.DgvTesis.Location = new System.Drawing.Point(12, 248);
             this.DgvTesis.Name = "DgvTesis";
             this.DgvTesis.ReadOnly = true;
             this.DgvTesis.RowHeadersWidth = 51;
             this.DgvTesis.RowTemplate.Height = 24;
-            this.DgvTesis.Size = new System.Drawing.Size(868, 228);
+            this.DgvTesis.Size = new System.Drawing.Size(938, 458);
             this.DgvTesis.TabIndex = 35;
             // 
             // FrmTesis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 688);
+            this.ClientSize = new System.Drawing.Size(962, 783);
             this.Name = "FrmTesis";
             this.Text = "FrmTesis";
             this.Load += new System.EventHandler(this.FrmTesis_Load);

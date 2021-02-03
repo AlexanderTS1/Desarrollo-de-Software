@@ -39,18 +39,18 @@ namespace LibFormularios
             this.BtnMantenimiento = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.PnlContenedor = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.PxbCerrar = new System.Windows.Forms.PictureBox();
             this.PbxMinimizar = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.PnlSubMantenimiento.SuspendLayout();
             this.PnlContenedor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PxbCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbxMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -63,7 +63,7 @@ namespace LibFormularios
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 759);
+            this.panel1.Size = new System.Drawing.Size(250, 888);
             this.panel1.TabIndex = 0;
             // 
             // PnlSubMantenimiento
@@ -183,34 +183,11 @@ namespace LibFormularios
             this.PnlContenedor.Controls.Add(this.panel3);
             this.PnlContenedor.Controls.Add(this.pictureBox1);
             this.PnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PnlContenedor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.PnlContenedor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PnlContenedor.Location = new System.Drawing.Point(250, 0);
             this.PnlContenedor.Name = "PnlContenedor";
-            this.PnlContenedor.Size = new System.Drawing.Size(990, 759);
+            this.PnlContenedor.Size = new System.Drawing.Size(990, 888);
             this.PnlContenedor.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(384, 235);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(256, 236);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(990, 58);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "SISTEMA DE GESTIÓN DE TESIS";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel3
             // 
@@ -245,12 +222,36 @@ namespace LibFormularios
             this.PbxMinimizar.TabStop = false;
             this.PbxMinimizar.Click += new System.EventHandler(this.PbxMinimizar_Click);
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(990, 58);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "SISTEMA DE GESTIÓN DE TESIS";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(384, 300);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(256, 236);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // FrmMantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1240, 759);
+            this.ClientSize = new System.Drawing.Size(1240, 888);
             this.Controls.Add(this.PnlContenedor);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -260,10 +261,10 @@ namespace LibFormularios
             this.panel1.ResumeLayout(false);
             this.PnlSubMantenimiento.ResumeLayout(false);
             this.PnlContenedor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PxbCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbxMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

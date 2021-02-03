@@ -45,7 +45,7 @@ namespace LibFormularios
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(875, 660);
+            this.panel1.Size = new System.Drawing.Size(962, 783);
             this.panel1.TabIndex = 5;
             // 
             // panel3
@@ -54,7 +54,7 @@ namespace LibFormularios
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(875, 55);
+            this.panel3.Size = new System.Drawing.Size(962, 55);
             this.panel3.TabIndex = 6;
             // 
             // LblTitulo
@@ -65,7 +65,7 @@ namespace LibFormularios
             this.LblTitulo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LblTitulo.Location = new System.Drawing.Point(0, 0);
             this.LblTitulo.Name = "LblTitulo";
-            this.LblTitulo.Size = new System.Drawing.Size(875, 55);
+            this.LblTitulo.Size = new System.Drawing.Size(962, 55);
             this.LblTitulo.TabIndex = 0;
             this.LblTitulo.Text = "TITULO";
             this.LblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -77,15 +77,15 @@ namespace LibFormularios
             this.panel4.Controls.Add(this.BtnNuevo);
             this.panel4.Controls.Add(this.BtnSalir);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 602);
+            this.panel4.Location = new System.Drawing.Point(0, 725);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(875, 58);
+            this.panel4.Size = new System.Drawing.Size(962, 58);
             this.panel4.TabIndex = 7;
             // 
             // BtnGuardar
             // 
             this.BtnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGuardar.Location = new System.Drawing.Point(668, 15);
+            this.BtnGuardar.Location = new System.Drawing.Point(781, 15);
             this.BtnGuardar.Name = "BtnGuardar";
             this.BtnGuardar.Size = new System.Drawing.Size(125, 31);
             this.BtnGuardar.TabIndex = 5;
@@ -96,7 +96,7 @@ namespace LibFormularios
             // BtnNuevo
             // 
             this.BtnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnNuevo.Location = new System.Drawing.Point(546, 15);
+            this.BtnNuevo.Location = new System.Drawing.Point(658, 15);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(109, 31);
             this.BtnNuevo.TabIndex = 4;
@@ -119,7 +119,7 @@ namespace LibFormularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(875, 660);
+            this.ClientSize = new System.Drawing.Size(962, 783);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);

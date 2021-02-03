@@ -67,29 +67,29 @@ namespace LibFormularios
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Size = new System.Drawing.Size(876, 713);
+            this.panel1.Size = new System.Drawing.Size(962, 783);
             // 
             // LblTitulo
             // 
-            this.LblTitulo.Size = new System.Drawing.Size(876, 55);
+            this.LblTitulo.Size = new System.Drawing.Size(962, 55);
             this.LblTitulo.Text = "TESISTA";
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.button1);
-            this.panel4.Location = new System.Drawing.Point(0, 655);
-            this.panel4.Size = new System.Drawing.Size(876, 58);
+            this.panel4.Location = new System.Drawing.Point(0, 725);
+            this.panel4.Size = new System.Drawing.Size(962, 58);
             this.panel4.Controls.SetChildIndex(this.button1, 0);
             // 
             // DgvTesista
             // 
             this.DgvTesista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvTesista.Location = new System.Drawing.Point(12, 365);
+            this.DgvTesista.Location = new System.Drawing.Point(12, 351);
             this.DgvTesista.Name = "DgvTesista";
             this.DgvTesista.ReadOnly = true;
             this.DgvTesista.RowHeadersWidth = 51;
             this.DgvTesista.RowTemplate.Height = 24;
-            this.DgvTesista.Size = new System.Drawing.Size(852, 271);
+            this.DgvTesista.Size = new System.Drawing.Size(938, 356);
             this.DgvTesista.TabIndex = 29;
             // 
             // TxtTelefono
@@ -224,9 +224,10 @@ namespace LibFormularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(876, 713);
+            this.ClientSize = new System.Drawing.Size(962, 783);
             this.Name = "FrmTesista";
             this.Text = "FrmTesista";
+            this.Load += new System.EventHandler(this.FrmTesista_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
