@@ -21,7 +21,7 @@ namespace LibFormularios
         //-- Establecer los valores que iran a la tabla
         public override string[] AsignarValoresAtributos()
         {
-            return new string[] { TxtCodDocente.Text, TxtDNI.Text, TxtApellidos.Text, TxtNombres.Text,TxtGradoAcademico.Text,TxtCategoria.Text, TxtCorreo.Text, TxtTelefono.Text, CbxCargo.Text };
+            return new string[] { TxtCodDocente.Text, TxtDNI.Text, TxtApellidos.Text, TxtNombres.Text, TxtGradoAcademico.Text, TxtCategoria.Text, TxtCorreo.Text, TxtTelefono.Text, CbxCargo.Text };
         }
         //-----------------------------------------------------------
         //-- Mostrar los datos de un registro
