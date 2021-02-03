@@ -78,6 +78,11 @@ namespace LibFormularios
             ListarRegistros();
         }
 
+<<<<<<< HEAD
+        private void button1_Click(object sender, EventArgs e)
+        {
+            aEntidad.Eliminar();
+=======
         private void TxtCodDocente_TextChanged(object sender, EventArgs e)
         {
 
@@ -86,6 +91,7 @@ namespace LibFormularios
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+>>>>>>> 1ba73fb8059f3ca4e67bfd4acca729dc0f204279
         }
     }
 }

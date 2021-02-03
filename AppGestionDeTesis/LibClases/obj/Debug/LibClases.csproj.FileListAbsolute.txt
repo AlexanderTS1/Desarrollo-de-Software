@@ -9,3 +9,4 @@ C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTes
 C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.dll
 C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.pdb
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache

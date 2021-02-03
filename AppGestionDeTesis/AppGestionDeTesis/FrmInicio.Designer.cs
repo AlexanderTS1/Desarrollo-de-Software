@@ -31,14 +31,18 @@ namespace AppGestionDeTesis
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmInicio));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.PxbCerrar = new System.Windows.Forms.PictureBox();
+            this.PbxMinimizar = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.button3 = new System.Windows.Forms.Button();
             this.BtnInscribirPlanDeTesis = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnDocentes = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -49,9 +53,9 @@ namespace AppGestionDeTesis
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PxbCerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxMinimizar)).BeginInit();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -63,6 +67,8 @@ namespace AppGestionDeTesis
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.panel1.Controls.Add(this.PxbCerrar);
+            this.panel1.Controls.Add(this.PbxMinimizar);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -71,6 +77,28 @@ namespace AppGestionDeTesis
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(819, 128);
             this.panel1.TabIndex = 1;
+            // 
+            // PxbCerrar
+            // 
+            this.PxbCerrar.Image = ((System.Drawing.Image)(resources.GetObject("PxbCerrar.Image")));
+            this.PxbCerrar.Location = new System.Drawing.Point(791, 3);
+            this.PxbCerrar.Name = "PxbCerrar";
+            this.PxbCerrar.Size = new System.Drawing.Size(25, 25);
+            this.PxbCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PxbCerrar.TabIndex = 3;
+            this.PxbCerrar.TabStop = false;
+            this.PxbCerrar.Click += new System.EventHandler(this.PxbCerrar_Click);
+            // 
+            // PbxMinimizar
+            // 
+            this.PbxMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("PbxMinimizar.Image")));
+            this.PbxMinimizar.Location = new System.Drawing.Point(760, 3);
+            this.PbxMinimizar.Name = "PbxMinimizar";
+            this.PbxMinimizar.Size = new System.Drawing.Size(25, 25);
+            this.PbxMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PbxMinimizar.TabIndex = 2;
+            this.PbxMinimizar.TabStop = false;
+            this.PbxMinimizar.Click += new System.EventHandler(this.PbxMinimizar_Click);
             // 
             // label2
             // 
@@ -139,6 +167,19 @@ namespace AppGestionDeTesis
             this.tableLayoutPanel2.Size = new System.Drawing.Size(403, 578);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Location = new System.Drawing.Point(3, 535);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(397, 32);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "TESIS";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // BtnInscribirPlanDeTesis
             // 
             this.BtnInscribirPlanDeTesis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
@@ -175,6 +216,19 @@ namespace AppGestionDeTesis
             this.BtnDocentes.Text = "DOCENTES";
             this.BtnDocentes.UseVisualStyleBackColor = false;
             this.BtnDocentes.Click += new System.EventHandler(this.BtnDocentes_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(3, 494);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(397, 32);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "TESISTA";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // tableLayoutPanel3
             // 
@@ -297,32 +351,6 @@ namespace AppGestionDeTesis
             this.label3.Text = "NroExpediente:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(3, 494);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(397, 32);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "TESISTA";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(3, 535);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(397, 32);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "TESIS";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // FrmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -330,10 +358,13 @@ namespace AppGestionDeTesis
             this.ClientSize = new System.Drawing.Size(819, 712);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmInicio";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PxbCerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxMinimizar)).EndInit();
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -368,5 +399,7 @@ namespace AppGestionDeTesis
         private System.Windows.Forms.Button BtnDocentes;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox PxbCerrar;
+        private System.Windows.Forms.PictureBox PbxMinimizar;
     }
 }

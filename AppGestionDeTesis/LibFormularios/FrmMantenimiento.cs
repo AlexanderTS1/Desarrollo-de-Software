@@ -32,7 +32,6 @@ namespace LibFormularios
                 subMenu.Visible = false;
         }
         
-        private Form activeForm = null;
         
         
         private void BtnMantenimiento_Click(object sender, EventArgs e)
@@ -42,6 +41,8 @@ namespace LibFormularios
 
         private void BtnDocentes_Click(object sender, EventArgs e)
         {
+            abrirFormHijoEnPanel(new FrmDocente());
+
             // ..
             //your codes
             //..
@@ -50,6 +51,8 @@ namespace LibFormularios
 
         private void BtnTesistas_Click(object sender, EventArgs e)
         {
+            abrirFormHijoEnPanel(new FrmTesista());
+
             // ..
             //your codes
             //..
@@ -58,6 +61,7 @@ namespace LibFormularios
 
         private void BtnTesis_Click(object sender, EventArgs e)
         {
+            abrirFormHijoEnPanel(new FrmTesis());
             // ..
             //your codes
             //..
@@ -66,17 +70,18 @@ namespace LibFormularios
 
         private void BtnRequisitos_Click(object sender, EventArgs e)
         {
+            
             // ..
             //your codes
             //..
             hideSubMenu();
         }
-        /*private Form activeForm = null;
+        private Form activeForm1 = null;
         private void abrirFormHijoEnPanel(Form formHijo)
         {
-            if (activeForm != null)
-                activeForm.Close();
-            activeForm = formHijo;
+            if (activeForm1 != null)
+                activeForm1.Close();
+            activeForm1 = formHijo;
             formHijo.TopLevel = false;
             formHijo.FormBorderStyle = FormBorderStyle.None;
             formHijo.Dock = DockStyle.Fill;
@@ -84,6 +89,16 @@ namespace LibFormularios
             PnlContenedor.Tag = formHijo;
             formHijo.BringToFront();
             formHijo.Show();
-        }*/
+        }
+
+        private void PbxMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void PxbCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
