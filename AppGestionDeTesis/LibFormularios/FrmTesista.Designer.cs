@@ -44,7 +44,9 @@ namespace LibFormularios
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvTesista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,6 +73,13 @@ namespace LibFormularios
             // 
             this.LblTitulo.Size = new System.Drawing.Size(876, 55);
             this.LblTitulo.Text = "TESISTA";
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.button1);
+            this.panel4.Location = new System.Drawing.Point(0, 655);
+            this.panel4.Size = new System.Drawing.Size(876, 58);
+            this.panel4.Controls.SetChildIndex(this.button1, 0);
             // 
             // DgvTesista
             // 
@@ -201,6 +210,16 @@ namespace LibFormularios
             this.label1.TabIndex = 15;
             this.label1.Text = "Código del tesista:";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(422, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(109, 31);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Eliminar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FrmTesista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -210,6 +229,7 @@ namespace LibFormularios
             this.Text = "FrmTesista";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DgvTesista)).EndInit();
             this.ResumeLayout(false);
 
@@ -232,5 +252,6 @@ namespace LibFormularios
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

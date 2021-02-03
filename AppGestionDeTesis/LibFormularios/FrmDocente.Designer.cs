@@ -46,12 +46,12 @@ namespace LibFormularios
             this.DgvDocente = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvDocente)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.DgvDocente);
             this.panel1.Controls.Add(this.TxtTelefono);
             this.panel1.Controls.Add(this.TxtCorreo);
@@ -73,6 +73,13 @@ namespace LibFormularios
             // 
             this.LblTitulo.Size = new System.Drawing.Size(878, 55);
             this.LblTitulo.Text = "DOCENTES";
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.button1);
+            this.panel4.Location = new System.Drawing.Point(0, 571);
+            this.panel4.Size = new System.Drawing.Size(878, 58);
+            this.panel4.Controls.SetChildIndex(this.button1, 0);
             // 
             // label1
             // 
@@ -207,11 +214,11 @@ namespace LibFormularios
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(546, 284);
+            this.button1.Location = new System.Drawing.Point(424, 15);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 31);
             this.button1.TabIndex = 15;
-            this.button1.Text = "Nuevo";
+            this.button1.Text = "Eliminar";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // FrmDocente
@@ -224,6 +231,7 @@ namespace LibFormularios
             this.Load += new System.EventHandler(this.FrmInscripcion_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DgvDocente)).EndInit();
             this.ResumeLayout(false);
 

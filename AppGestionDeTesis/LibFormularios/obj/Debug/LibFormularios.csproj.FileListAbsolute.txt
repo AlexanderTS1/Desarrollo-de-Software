@@ -13,3 +13,5 @@ C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormu
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmMantenimiento.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources

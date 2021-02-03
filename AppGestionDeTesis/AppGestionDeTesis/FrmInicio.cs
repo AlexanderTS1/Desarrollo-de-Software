@@ -28,8 +28,8 @@ namespace AppGestionDeTesis
         private void BtnDocentes_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FrmDocente aDocentes = new FrmDocente();
-            aDocentes.Show();
+            FrmMantenimiento oMantenimiento = new FrmMantenimiento();
+            oMantenimiento.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
