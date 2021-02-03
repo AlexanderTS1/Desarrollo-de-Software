@@ -19,7 +19,7 @@ create table TTesista
 	CodTesista varchar(10) NOT NULL,
 	Nombre varchar (50) not null,
 	Apellido varchar(50) not null,
-	DNI varchar(15),
+	DNI varchar(8),
 	telefono varchar (20) not null,
 	CorreoElectronico varchar(30) not null,
 	GradoAcademico Varchar(20)        default 'Estudiante'
@@ -53,7 +53,7 @@ create table TRequisitos
 (	 -- lista de atributos
 	CodRequisito varchar(10) not null,
 	Nombre varchar (50) not null,
-	Descripcion varchar (30),
+	Descripcion varchar (300),
 	CodTramite varchar(10),
 	-- definicion de la clave primaria
 	primary key (CodRequisito),
@@ -66,13 +66,15 @@ go
 create table TDocente
 (	-- lista de atributos
 	CodDocente varchar(10),
-	DNI varchar(10),
+	DNI varchar(8),
 	Apellidos varchar(50),
 	Nombres varchar(50),
+	GradoAcademico varchar(20),
+	categoria varchar(20),
 	Correo varchar(50),
 	NumeroCelular varchar(10),
 	Cargo Varchar(20)        default 'Docente'
-                        Check (Cargo in ('Docente','Evaluador','Dictaminante','Jurado','Asesor','director')),
+                        Check (Cargo in ('Docente','Evaluador','Dictaminante','Jurado','Asesor','Directora')),
 	-- definicion de la clave primaria
 	primary key (CodDocente),
 		-- definicion de la clave foranea
@@ -242,32 +244,103 @@ insert into TTesista values('T0002','ANGEL','QUISPE FLORES','72413452','95454343
 insert into TTesista values('T0003','FLOR SHARMELY','TURCO CHAMPI','70566554','931232434','154453@unsaac.edu.pe','Bachiller')
 insert into TTesista values('T0004','FLOR ELISABET','USCA MOREANO','70655432','956344323','123434@unsaac.edu.pe','Estudiante')
 insert into TTesista values('T0005','ANTONIO','PARQUE ARCE','85454233','923284342','167443@unsaac.edu.pe','Bachiller')
+insert into TTesista values('T0006','MARCO','PARUA PECHO','77467875','931462722','167443@unsaac.edu.pe','Bachiller')
+insert into TTesista values('T0007','PERCY','REYES ROBLES','73455454','937374322','176548@unsaac.edu.pe','Bachiller')
+insert into TTesista values('T0008','ANTONI','USCA MOREANO','70655432','952233432','136533@unsaac.edu.pe','Estudiante')
+insert into TTesista values('T0009','PEDRO','ALCA CUSI','71334342','999643234','112324@unsaac.edu.pe','Bachiller')
+insert into TTesista values('T0010','BRUNO','PEREZ CHAWA','85454233','963122123','154621@unsaac.edu.pe','Estudiante')
 go 
 -------------------------------------------------------------------
 -- inserción de datos en la tabla TESIS --
 
 -------------------------------------------------------------------
 insert into TTesis values('TE0001','Algoritmo de optimización basado en el comportamiento social de las arañas para clustering ','INTELIGENCIA ARTIFICIAL','Inicio','T0001')
-insert into TTesis values('TE0002','Análisis estadistico de  saturacion de red en departamento de Cusco','REDES','Finalizado','T0003')
+insert into TTesis values('TE0002','Análisis estadistico de  saturacion de red en departamento de Cusco','REDES','Finalizado','T0002')
+insert into TTesis values('TE0003','Análisis comparativa y diseño de una red 4G LTE en la provincia del Cusco empleando software de radioenlace ','REDES Y TELEPROCESOS','Inicio','T0003')
+insert into TTesis values('TE0004','Análisis de métodos de visión computacional y Machine Learning para la clasificación de imágenes de variedades de papa nativa ﻿','INTELIGENCIA ARTIFICIAL','Inicio','T0004')
+insert into TTesis values('TE0005','Análisis masivo de datos en twitter para identificación de opinión ﻿','INTELIGENCIA ARTIFICIAL','Inicio','T0005')
 -------------------------------------------------------------------
 -- inserción de datos en la tabla Docentes --
 -------------------------------------------------------------------
-insert into TDocente values('D0001','24542345','RIBAS PUGA','ABDON','abdon.rivas@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0002','24542346','CARDENAS MAITA','ANA ROCIO','ana.cardenas@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0003','24542347','CANDIA OVIEDO','DENNIS IVAN','dennis.candia@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0004','24542348','AGUIRRE CARBAJAL ','DORIS SABINA','doris.aguirre@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0005','24542349','CARRASCO POBLETE','EDWIN','edwincarrasco@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('D0006','24542350','CUTIPA ARAPA','EFRAINA GLADYS','efraina.cutipa@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0007','24542351','PALOMINO OLIVERA','EMILIO','emiliopalomino@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0008','24542352','GAMARRA SALDIVAR','ENRIQUE','enrique.gamarra@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0009','24542353','PACHECO VASQUEZ ','ESTHER CRISTINA','esther.pacheco@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0010','24542354','TICONA PARI','GUZMAN','guzman.ticona@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('D0011','24542355','VERA OLIVERA','HARLEY','harley.vera@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0012','24542356','DUEÑAS DE LA CRUZ','HENRY SAMUEL','henry.duenas@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0013','24542357','CASTAÑEDA CHIRINOS','HERNAN','dhernan.castaneda@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0014','24542358','MEDRANO VALENCIA ','IVAN CESAR','ivan.medrano@unsaac.edu.pe','932456879','Docente')
-insert into TDocente values('C0015','24542359','ROZAS HUACHO','JAVIER ARTURO','javier.rozas@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0000','23423312','ACURI USCA','NILA SONIA','MAGISTER','NOMBRADO','nila.sonia@unsaac.edu.pe','942323879','Directora')
+insert into TDocente values('D0001','24542345','RIBAS PUGA','ABDON','LICENCIADO','NOMBRADO','abdon.rivas@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0002','24542346','CARDENAS MAITA','ANA ROCIO','MAGISTER','CONTRATADO','ana.cardenas@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0003','24542347','CANDIA OVIEDO','DENNIS IVAN','INGENIERO','NOMBRADO','dennis.candia@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0004','24542348','AGUIRRE CARBAJAL ','DORIS SABINA','LICENCIADA','CONTRATADO','doris.aguirre@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0005','24542349','CARRASCO POBLETE','EDWIN','MAGISTER','NOMBRADO','edwincarrasco@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0006','24542350','CUTIPA ARAPA','EFRAINA GLADYS','INGENIERO','CONTRATADO','efraina.cutipa@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0007','24542351','PALOMINO OLIVERA','EMILIO','MAGISTER','NOMBRADO','emiliopalomino@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0008','24542352','GAMARRA SALDIVAR','ENRIQUE','MAGISTER','NOMBRADO','enrique.gamarra@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0009','24542353','PACHECO VASQUEZ ','ESTHER CRISTINA','LICENCIADA','NOMBRADO','esther.pacheco@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0010','24542354','TICONA PARI','GUZMAN','INGENIERO','NOMBRADO','guzman.ticona@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0011','24542355','VERA OLIVERA','HARLEY','MAGISTER','CONTRATADO','harley.vera@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0012','24542356','DUEÑAS DE LA CRUZ','HENRY SAMUEL','INGENIERO','CONTRATADO','henry.duenas@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0013','24542357','CASTAÑEDA CHIRINOS','HERNAN','INGENIERO','CONTRATADO','dhernan.castaneda@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0014','24542358','MEDRANO VALENCIA ','IVAN CESAR','INGENIERO','NOMBRADO','ivan.medrano@unsaac.edu.pe','932456879','Docente')
+insert into TDocente values('D0015','24542359','ROZAS HUACHO','JAVIER ARTURO','MAGISTER','NOMBRADO','javier.rozas@unsaac.edu.pe','932456879','Docente')
+
 go 
+-- inserción de datos en la tabla TIPO DE TRAMITE
+-------------------------------------------------------------------
+insert into TTipoTramite values('0001','Inscripcion')
+insert into TTipoTramite values('0002','Dictamen')
+insert into TTipoTramite values('0003','Sustentacion')
+
+go 
+-- inserción de datos en la tabla TIPO DE TRAMITE
+-------------------------------------------------------------------
+insert into TRequisitos values('REQ0001','Ficha de seguimiento','ficha con las notas para verificar culminacion de semestre','0001')
+insert into TRequisitos values('REQ0002','Solicitud valorada','solicitar inscripcion hacia el rector','0001')
+insert into TRequisitos values('REQ0003','Solicitud de dictaminates','solicitar a decano dictaminates','0002')
+insert into TRequisitos values('REQ0004','Ejemplar de plan de tesis','entrega de una copia de plan de tesis','0001')
+insert into TRequisitos values('REQ0005','Ejemplar de Tesis','Ejemplar de la tesis','0003')
+go
+-- inserción de datos en la tabla PROVEIDO
+-------------------------------------------------------------------
+insert into TProveido values('PV0001','12/12/12','D0001')
+insert into TProveido values('PV0002','12/12/12','D0002')
+insert into TProveido values('PV0003','13/05/15','D0003')
+insert into TProveido values('PV0004','24/12/15','D0004')
+insert into TProveido values('PV0005','24/12/15','D0005')
+go
+-- inserción de datos en la tabla DOCUMENTACION
+-------------------------------------------------------------------
+insert into TDocumentacion values('EX0001','D0000','Inicio','01/04/2012','Inscripcion','PV0001','0001','TE0001')
+insert into TDocumentacion values('EX0002','D0000','Intermedio','01/08/2012','Dictamen','PV0002','0002','TE0002')
+insert into TDocumentacion values('EX0003','D0000','Inicio','01/02/2013','Inscripcion','PV0003','0001','TE0003')
+insert into TDocumentacion values('EX0004','D0000','Intermedio','01/05/2013','Dcitamen','PV0004','0002','TE0004')
+insert into TDocumentacion values('EX0005','D0000','Terminado','01/10/2013','Sustentacion','PV0005','0003','TE0005')
+go
+-- inserción de datos en la tabla RESOLUCION
+-------------------------------------------------------------------
+insert into TResolucion values('RES0001','11/08/2012','EX0002')
+insert into TResolucion values('RES0002','21/05/2013','EX0004')
+insert into TResolucion values('RES0003','01/10/2013','EX0005')
+
+go
+-- inserción de datos en la tabla PUBLICACION
+-------------------------------------------------------------------
+insert into TPublicacion values('PU0001','EX0001')
+go
+-- inserción de datos en la tabla TEvaluacionDePlanDeTesis
+-------------------------------------------------------------------
+insert into TEvaluacionDePlanDeTesis values('EV0001','16','15','16','17','16','15','17','18','18','de 0 a 20','Excelente trabajo corregir errores ortagrafico minimos','PV0001','D0001')
+insert into TEvaluacionDePlanDeTesis values('EV0002','16','15','16','17','16','15','17','18','18','de 0 a 20','Excelente trabajo corregir errores ortagrafico minimos','PV0002','D0002')
+insert into TEvaluacionDePlanDeTesis values('EV0003','16','15','16','17','16','15','17','18','18','de 0 a 20','Excelente trabajo corregir errores ortagrafico minimos','PV0003','D0003')
+insert into TEvaluacionDePlanDeTesis values('EV0004','16','15','16','17','16','15','17','18','18','de 0 a 20','Excelente trabajo corregir errores ortagrafico minimos','PV0004','D0004')
+insert into TEvaluacionDePlanDeTesis values('EV0005','16','15','16','17','16','15','17','18','18','de 0 a 20','Excelente trabajo corregir errores ortagrafico minimos','PV0005','D0005')
+go
+-- inserción de datos en la tabla TEvaluacionDeDictamenDeTesis
+-------------------------------------------------------------------
+insert into TEvaluacionDeDictamenDeTesis values('DI0001','17','excelente trabajo mejor la parte de bibliografia','D0014','RES0001')
+insert into TEvaluacionDeDictamenDeTesis values('DI0002','16','excelente trabajo mejor la parte de bibliografia','D0015','RES0002')
+
+go
+-- inserción de datos en la tabla TEvaluacionDeSustentacionDeTesis
+-------------------------------------------------------------------
+insert into TEvaluacionDeSustentacionDeTesis values('SU0001','16','17','18','19','Corregir errores minimos','D0007','RES0003')
+
+go
 use DBGestionTesis
 go
 select * from TDocente
