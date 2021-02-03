@@ -42,8 +42,18 @@ namespace AppGestionDeTesis
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FrmTesis oTesis = new FrmTesis();
+            FrmDocente oTesis = new FrmDocente();
             oTesis.Show();
+        }
+
+        private void PbxMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void PxbCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
