@@ -133,11 +133,11 @@ namespace LibFormularios
 
         #endregion
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button BtnGuardar;
         private System.Windows.Forms.Button BtnNuevo;
         private System.Windows.Forms.Button BtnSalir;
         protected System.Windows.Forms.Panel panel1;
         protected System.Windows.Forms.Label LblTitulo;
+        protected System.Windows.Forms.Panel panel4;
     }
 }

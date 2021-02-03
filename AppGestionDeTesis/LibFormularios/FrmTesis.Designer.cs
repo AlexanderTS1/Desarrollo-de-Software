@@ -58,6 +58,7 @@ namespace LibFormularios
             // LblTitulo
             // 
             this.LblTitulo.Size = new System.Drawing.Size(892, 55);
+            this.LblTitulo.Text = "TESIS";
             // 
             // TxtEstado
             // 
@@ -100,11 +101,11 @@ namespace LibFormularios
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(138, 112);
+            this.label3.Location = new System.Drawing.Point(128, 112);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(146, 20);
+            this.label3.Size = new System.Drawing.Size(156, 20);
             this.label3.TabIndex = 31;
-            this.label3.Text = "Titulo e la tesis:";
+            this.label3.Text = "Titulo de la tesis:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label19
