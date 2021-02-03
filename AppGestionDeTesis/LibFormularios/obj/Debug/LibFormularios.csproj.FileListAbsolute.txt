@@ -1,0 +1,34 @@
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmMantenimiento.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmMantenimiento.resources
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
