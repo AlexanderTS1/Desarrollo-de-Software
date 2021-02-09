@@ -1,0 +1,24 @@
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.dll
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.pdb
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.dll
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.pdb
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.dll
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.pdb
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.dll
+C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.pdb
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache
+C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache
+C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.dll
+C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.pdb
+C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.dll
+C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.pdb
+C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.dll
+C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.pdb
+C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.dll
+C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.pdb
+C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache
