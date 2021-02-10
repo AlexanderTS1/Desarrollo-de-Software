@@ -13,7 +13,6 @@ C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormu
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmMantenimiento.resources
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
 C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
 C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
@@ -94,3 +93,8 @@ C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormul
 C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
 C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
 C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmResolucion.resources

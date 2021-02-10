@@ -139,6 +139,28 @@ namespace LibFormularios
                 //MessageBox.Show("error");
             }
         }
+        private void CboCodTramite_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            RellenarRequisitosXTramite();
+        }
+        public void ConsultarEstudiante(TextBox tbox1, TextBox tbox2, TextBox tbox3, string codigotesista)
+        {
+            CTesista tesista = new CTesista();
+            if (tesista.ExisteClavePrimaria(codigotesista))
+            {
+                //MessageBox.Show("Codigo encontrado", "Se actualizaron los datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //-- Recuperar atributos, el primer atributo es la clave 
+                tbox1.Text = tesista.ValorAtributo("Nombres");
+                tbox2.Text = tesista.ValorAtributo("Apellidos");
+                tbox3.Text = tesista.ValorAtributo("Dni");
+            }
+            else
+            {
+                //MessageBox.Show("No se pudo encontrar el codigo", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tbox1.Clear(); tbox2.Clear(); tbox3.Clear();
+            }
         
+        }
+
     }
 }
