@@ -43,6 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmBuscarDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarDocente.Designer.cs">
+      <DependentUpon>FrmBuscarDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuscarTesista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarTesista.Designer.cs">
+      <DependentUpon>FrmBuscarTesista.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmDocente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +129,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FrmBuscarDocente.resx">
+      <DependentUpon>FrmBuscarDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarTesista.resx">
+      <DependentUpon>FrmBuscarTesista.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmDocente.resx">
       <DependentUpon>FrmDocente.cs</DependentUpon>
     </EmbeddedResource>
