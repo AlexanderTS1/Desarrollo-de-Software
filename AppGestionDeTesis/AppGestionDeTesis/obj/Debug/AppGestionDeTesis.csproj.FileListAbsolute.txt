@@ -98,3 +98,17 @@ C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\o
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.CopyComplete
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.exe
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.pdb
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\AppGestionDeTesis.exe.config
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\AppGestionDeTesis.exe
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\AppGestionDeTesis.pdb
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibClases.dll
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibFormularios.dll
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibClases.pdb
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibFormularios.pdb
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.Properties.Resources.resources
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.CopyComplete
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.exe
+C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.pdb

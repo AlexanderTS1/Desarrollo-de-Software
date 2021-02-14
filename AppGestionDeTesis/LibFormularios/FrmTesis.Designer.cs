@@ -29,6 +29,7 @@ namespace LibFormularios
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTesis));
             this.TxtEstado = new System.Windows.Forms.ComboBox();
             this.TxtEspecialidad = new System.Windows.Forms.TextBox();
             this.TxtTituloT = new System.Windows.Forms.TextBox();
@@ -39,10 +40,12 @@ namespace LibFormularios
             this.label20 = new System.Windows.Forms.Label();
             this.DgvTesis = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.BtnBusquedaTesis = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvTesis)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnBusquedaTesis)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -147,6 +150,7 @@ namespace LibFormularios
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.BtnBusquedaTesis);
             this.groupBox1.Controls.Add(this.TxtTituloT);
             this.groupBox1.Controls.Add(this.label20);
             this.groupBox1.Controls.Add(this.TxtEstado);
@@ -162,6 +166,18 @@ namespace LibFormularios
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos de la tesis";
             // 
+            // BtnBusquedaTesis
+            // 
+            this.BtnBusquedaTesis.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.BtnBusquedaTesis.Image = ((System.Drawing.Image)(resources.GetObject("BtnBusquedaTesis.Image")));
+            this.BtnBusquedaTesis.Location = new System.Drawing.Point(410, 5);
+            this.BtnBusquedaTesis.Name = "BtnBusquedaTesis";
+            this.BtnBusquedaTesis.Size = new System.Drawing.Size(50, 50);
+            this.BtnBusquedaTesis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BtnBusquedaTesis.TabIndex = 35;
+            this.BtnBusquedaTesis.TabStop = false;
+            this.BtnBusquedaTesis.Click += new System.EventHandler(this.BtnBusquedaTesis_Click);
+            // 
             // FrmTesis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -175,6 +191,7 @@ namespace LibFormularios
             ((System.ComponentModel.ISupportInitialize)(this.DgvTesis)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnBusquedaTesis)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -191,5 +208,6 @@ namespace LibFormularios
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.DataGridView DgvTesis;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.PictureBox BtnBusquedaTesis;
     }
 }
