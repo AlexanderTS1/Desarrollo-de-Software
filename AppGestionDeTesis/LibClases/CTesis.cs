@@ -37,7 +37,7 @@ namespace LibClases
         }
         public void AgregarASolitudInscripcion(List<string> CadenaSolicitudDeIncripcion)
         {
-            string consulta = "insert into TSolicitudInscripcion values('" + CadenaSolicitudDeIncripcion[0] + "','" + CadenaSolicitudDeIncripcion[1] + "','" + CadenaSolicitudDeIncripcion[2] +"','Recibido','" + CadenaSolicitudDeIncripcion[3]+"')";
+            string consulta = "insert into TSolicitudInscripcion values('" + CadenaSolicitudDeIncripcion[0] + "','" + CadenaSolicitudDeIncripcion[1] + "','" + CadenaSolicitudDeIncripcion[2] +"','Recibido','...')";
             aConexion.EjecutarComando(consulta);
         }
         /*

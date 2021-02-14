@@ -40,28 +40,28 @@ namespace LibFormularios
             this.PnlSubMantenimiento = new System.Windows.Forms.Panel();
             this.BtnRequisitosPorTramite = new System.Windows.Forms.Button();
             this.BtnRequisitos = new System.Windows.Forms.Button();
-            this.BtnTesis = new System.Windows.Forms.Button();
             this.BtnTesistas = new System.Windows.Forms.Button();
             this.BtnDocentes = new System.Windows.Forms.Button();
             this.BtnMantenimiento = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.PtbLogo = new System.Windows.Forms.PictureBox();
             this.PnlContenedor = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.PxbCerrar = new System.Windows.Forms.PictureBox();
             this.PbxMinimizar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.PtbLogo = new System.Windows.Forms.PictureBox();
+            this.BtnTesis = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.PnlSubprocesos.SuspendLayout();
             this.PnlSubMantenimiento.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PtbLogo)).BeginInit();
             this.PnlContenedor.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PxbCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbxMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PtbLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -241,26 +241,6 @@ namespace LibFormularios
             this.BtnRequisitos.UseVisualStyleBackColor = false;
             this.BtnRequisitos.Click += new System.EventHandler(this.BtnRequisitos_Click);
             // 
-            // BtnTesis
-            // 
-            this.BtnTesis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.BtnTesis.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnTesis.FlatAppearance.BorderSize = 0;
-            this.BtnTesis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnTesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnTesis.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnTesis.Image = ((System.Drawing.Image)(resources.GetObject("BtnTesis.Image")));
-            this.BtnTesis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnTesis.Location = new System.Drawing.Point(0, 92);
-            this.BtnTesis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BtnTesis.Name = "BtnTesis";
-            this.BtnTesis.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.BtnTesis.Size = new System.Drawing.Size(251, 46);
-            this.BtnTesis.TabIndex = 2;
-            this.BtnTesis.Text = "TESIS";
-            this.BtnTesis.UseVisualStyleBackColor = false;
-            this.BtnTesis.Click += new System.EventHandler(this.BtnTesis_Click);
-            // 
             // BtnTesistas
             // 
             this.BtnTesistas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
@@ -329,6 +309,17 @@ namespace LibFormularios
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(251, 210);
             this.panel2.TabIndex = 0;
+            // 
+            // PtbLogo
+            // 
+            this.PtbLogo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PtbLogo.Image = ((System.Drawing.Image)(resources.GetObject("PtbLogo.Image")));
+            this.PtbLogo.Location = new System.Drawing.Point(0, 0);
+            this.PtbLogo.Name = "PtbLogo";
+            this.PtbLogo.Size = new System.Drawing.Size(251, 210);
+            this.PtbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PtbLogo.TabIndex = 0;
+            this.PtbLogo.TabStop = false;
             // 
             // PnlContenedor
             // 
@@ -405,16 +396,25 @@ namespace LibFormularios
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // PtbLogo
+            // BtnTesis
             // 
-            this.PtbLogo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PtbLogo.Image = ((System.Drawing.Image)(resources.GetObject("PtbLogo.Image")));
-            this.PtbLogo.Location = new System.Drawing.Point(0, 0);
-            this.PtbLogo.Name = "PtbLogo";
-            this.PtbLogo.Size = new System.Drawing.Size(251, 210);
-            this.PtbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PtbLogo.TabIndex = 0;
-            this.PtbLogo.TabStop = false;
+            this.BtnTesis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.BtnTesis.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnTesis.FlatAppearance.BorderSize = 0;
+            this.BtnTesis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnTesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTesis.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnTesis.Image = ((System.Drawing.Image)(resources.GetObject("BtnTesis.Image")));
+            this.BtnTesis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnTesis.Location = new System.Drawing.Point(0, 92);
+            this.BtnTesis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnTesis.Name = "BtnTesis";
+            this.BtnTesis.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.BtnTesis.Size = new System.Drawing.Size(251, 46);
+            this.BtnTesis.TabIndex = 2;
+            this.BtnTesis.Text = "TESIS";
+            this.BtnTesis.UseVisualStyleBackColor = false;
+            this.BtnTesis.Click += new System.EventHandler(this.BtnTesis_Click);
             // 
             // FrmPrincipal
             // 
@@ -433,12 +433,12 @@ namespace LibFormularios
             this.PnlSubprocesos.ResumeLayout(false);
             this.PnlSubMantenimiento.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PtbLogo)).EndInit();
             this.PnlContenedor.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PxbCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbxMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PtbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -448,7 +448,6 @@ namespace LibFormularios
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel PnlSubMantenimiento;
-        private System.Windows.Forms.Button BtnTesis;
         private System.Windows.Forms.Button BtnTesistas;
         private System.Windows.Forms.Button BtnDocentes;
         private System.Windows.Forms.Button BtnMantenimiento;
@@ -468,5 +467,6 @@ namespace LibFormularios
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button BtnGenerarExpediente;
         private System.Windows.Forms.PictureBox PtbLogo;
+        private System.Windows.Forms.Button BtnTesis;
     }
 }

@@ -56,7 +56,7 @@ namespace LibFormularios
             this.DgvRequisito.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvRequisito.BackgroundColor = System.Drawing.SystemColors.Control;
             this.DgvRequisito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvRequisito.Location = new System.Drawing.Point(161, 354);
+            this.DgvRequisito.Location = new System.Drawing.Point(190, 301);
             this.DgvRequisito.Name = "DgvRequisito";
             this.DgvRequisito.ReadOnly = true;
             this.DgvRequisito.RowHeadersWidth = 51;

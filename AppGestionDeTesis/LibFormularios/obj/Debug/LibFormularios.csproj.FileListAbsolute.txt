@@ -149,3 +149,8 @@ C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmGenerarExpediente.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarComisionRevisora.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesis.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarDocente.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesis.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesista.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmGenerarExpediente.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarComisionRevisora.resources

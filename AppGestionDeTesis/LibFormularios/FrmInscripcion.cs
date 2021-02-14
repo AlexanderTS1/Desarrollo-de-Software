@@ -187,7 +187,7 @@ namespace LibFormularios
             }
         }
 
-        public bool ComprobarDuplicidad(TextBox txb1, TextBox txb2)
+        public bool ComprobarDuplicidadDeTesistas(TextBox txb1, TextBox txb2)
         {
             if ((txb1.Text == txb2.Text))
             {
@@ -217,13 +217,8 @@ namespace LibFormularios
             AddOwnedForm(A);
             A.Show();
             A.CajadeTexto = TxtCodTesista2;
-            /*
-            if (ComprobarDuplicidad(TxtCodTesista1, TxtCodTesista2) == false)
-            {
-                ConsultarEstudiante(TxtNombreTesista2, TxtApeTesista2, TxtDniTesista2, TxtCodTesista2.Text);
-            }
-            */
             ConsultarEstudiante(TxtNombreTesista2, TxtApeTesista2, TxtCodTesista2.Text);
+            ComprobarDuplicidadDeTesistas(TxtCodTesista1, TxtCodTesista2);
         }
 
         private void BtnBuscarTesista3_Click(object sender, EventArgs e)
@@ -232,13 +227,8 @@ namespace LibFormularios
             AddOwnedForm(A);
             A.Show();
             A.CajadeTexto = TxtCodTesista3;
-
-            /*
-            if ((ComprobarDuplicidad(TxtCodTesista1, TxtCodTesista2) == false) && (ComprobarDuplicidad(TxtCodTesista1, TxtCodTesista3) == false) && (ComprobarDuplicidad(TxtCodTesista2, TxtCodTesista3) == false))
-            {
-                ConsultarEstudiante(TxtNombreTesista3, TxtApeTesista3, TxtDniTesista3, TxtCodTesista3.Text);
-            }*/
             ConsultarEstudiante(TxtNombreTesista3, TxtApeTesista3, TxtCodTesista3.Text);
+            ComprobarDuplicidadDeTesistas(TxtCodTesista2, TxtCodTesista3);
         }
 
         public void ConsultarDocente(TextBox tbox1, TextBox tbox2, string codigotesista)
@@ -289,12 +279,12 @@ namespace LibFormularios
                     List<string> CadenaTesis = new List<string>();
                     CadenaTesis.Add(LblCodTesis.Text);
                     CadenaTesis.Add(TxtEspecialidad.Text);
-                    CadenaTesis.Add(txtCodDocente.Text);
                     CadenaTesis.Add(TxtTitulo.Text);
+                    CadenaTesis.Add(txtCodDocente.Text);
                     CadenaTesis.Add("Por revisar");
                     oTesis.AgregarTesis(CadenaTesis);
 
-                    MessageBox.Show("Nro de Tesis " + LblCodTesis.Text + " ESTADO: POR REVISAR");
+                    MessageBox.Show("Número de Tesis " + LblCodTesis.Text + " Estado: Por revisar");
 
                     //Agregar a la tabla TesisXTesista
                     List<string> CadenaTesisXTesista = new List<string>();
@@ -327,24 +317,23 @@ namespace LibFormularios
                     string CodTrInscripcionDeTemaDeTesis;
 
                     CodTrInscripcionDeTemaDeTesis = oTesis.GenerarCodigoDeInscripcionDeTemaDeTesis();
-                    MessageBox.Show("Nro TramiteIncripcionDeTemaDeTesis: " + CodTrInscripcionDeTemaDeTesis);
+                    MessageBox.Show("Número de Solicitud de Inscripcion: " + CodTrInscripcionDeTemaDeTesis);
                     IniciarTramiteInscripcionPlanDeTesis.Add(CodTrInscripcionDeTemaDeTesis);
                     IniciarTramiteInscripcionPlanDeTesis.Add(codTramite);
                     IniciarTramiteInscripcionPlanDeTesis.Add(LblCodTesis.Text);
-                    //insert into TIniciarTramiteInscripcionPlanDeTesis values ('TR0001','124813','124219','150409','100005','NINGUNA')
                     oTesis.AgregarASolitudInscripcion(IniciarTramiteInscripcionPlanDeTesis);
-                    MessageBox.Show("TRAMITE " + codTramite + " AGREGADO");
+                    MessageBox.Show("Trámite " + codTramite + " Fue Agregado");
                 }
                 else
                 {
-                    MessageBox.Show("Tiene que cumplir todos los requisitos");
+                    MessageBox.Show("Es obligatorio tener requisitos completos");
                 }
 
 
             }
-            catch (Exception eRROR)
+            catch (Exception error)
             {
-                MessageBox.Show(eRROR.ToString(), "ERROR AL REALIZAR LA OPERACION");
+                MessageBox.Show(error.ToString(), "ERROR, no se puede iniciar solitud de Inscripción");
             }
         }
 
