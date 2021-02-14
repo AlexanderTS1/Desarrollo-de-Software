@@ -29,12 +29,8 @@ namespace LibFormularios
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.BtnCargar = new System.Windows.Forms.Button();
-            this.DgvTramitesDeInscripcion = new System.Windows.Forms.DataGridView();
             this.BtnGenerarExpediente = new System.Windows.Forms.Button();
             this.TxtCodTesis = new System.Windows.Forms.TextBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.TxtCodTramite = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BtnGenerar = new System.Windows.Forms.Button();
@@ -42,74 +38,42 @@ namespace LibFormularios
             this.label1 = new System.Windows.Forms.Label();
             this.TxtNroExpediente = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.DgvSolitudesInscripcion = new System.Windows.Forms.DataGridView();
+            this.BtnCargar = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvTramitesDeInscripcion)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvSolitudesInscripcion)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.groupBox3);
             this.panel1.Controls.Add(this.BtnGenerarExpediente);
-            this.panel1.Controls.Add(this.TxtCodTesis);
-            this.panel1.Controls.Add(this.groupBox4);
-            this.panel1.Controls.Add(this.TxtCodTramite);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Size = new System.Drawing.Size(1007, 712);
             // 
             // LblTitulo
             // 
             this.LblTitulo.Size = new System.Drawing.Size(1007, 55);
+            this.LblTitulo.Text = "SOLICITUDES DE INSCRIPCIÓN DE PLAN DE TESIS";
             // 
             // panel4
             // 
             this.panel4.Location = new System.Drawing.Point(0, 654);
             this.panel4.Size = new System.Drawing.Size(1007, 58);
             // 
-            // groupBox3
+            // BtnGuardar
             // 
-            this.groupBox3.Controls.Add(this.BtnCargar);
-            this.groupBox3.Controls.Add(this.DgvTramitesDeInscripcion);
-            this.groupBox3.Location = new System.Drawing.Point(74, 75);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(653, 208);
-            this.groupBox3.TabIndex = 192;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
+            this.BtnGuardar.Visible = false;
             // 
-            // BtnCargar
+            // BtnNuevo
             // 
-            this.BtnCargar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.BtnCargar.FlatAppearance.BorderSize = 0;
-            this.BtnCargar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(62)))), ((int)(((byte)(95)))));
-            this.BtnCargar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnCargar.ForeColor = System.Drawing.Color.Olive;
-            this.BtnCargar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnCargar.Location = new System.Drawing.Point(533, 85);
-            this.BtnCargar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BtnCargar.Name = "BtnCargar";
-            this.BtnCargar.Size = new System.Drawing.Size(99, 48);
-            this.BtnCargar.TabIndex = 179;
-            this.BtnCargar.Text = "Cargar";
-            this.BtnCargar.UseVisualStyleBackColor = false;
-            // 
-            // DgvTramitesDeInscripcion
-            // 
-            this.DgvTramitesDeInscripcion.AllowUserToAddRows = false;
-            this.DgvTramitesDeInscripcion.AllowUserToDeleteRows = false;
-            this.DgvTramitesDeInscripcion.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.DgvTramitesDeInscripcion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvTramitesDeInscripcion.Location = new System.Drawing.Point(48, 20);
-            this.DgvTramitesDeInscripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.DgvTramitesDeInscripcion.Name = "DgvTramitesDeInscripcion";
-            this.DgvTramitesDeInscripcion.ReadOnly = true;
-            this.DgvTramitesDeInscripcion.RowHeadersWidth = 51;
-            this.DgvTramitesDeInscripcion.RowTemplate.Height = 24;
-            this.DgvTramitesDeInscripcion.Size = new System.Drawing.Size(479, 183);
-            this.DgvTramitesDeInscripcion.TabIndex = 1;
+            this.BtnNuevo.Visible = false;
             // 
             // BtnGenerarExpediente
             // 
@@ -120,38 +84,31 @@ namespace LibFormularios
             this.BtnGenerarExpediente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.BtnGenerarExpediente.ForeColor = System.Drawing.Color.Olive;
             this.BtnGenerarExpediente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnGenerarExpediente.Location = new System.Drawing.Point(723, 558);
+            this.BtnGenerarExpediente.Location = new System.Drawing.Point(781, 569);
             this.BtnGenerarExpediente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnGenerarExpediente.Name = "BtnGenerarExpediente";
             this.BtnGenerarExpediente.Size = new System.Drawing.Size(177, 80);
             this.BtnGenerarExpediente.TabIndex = 197;
             this.BtnGenerarExpediente.Text = "Generar Expediente";
             this.BtnGenerarExpediente.UseVisualStyleBackColor = false;
+            this.BtnGenerarExpediente.Click += new System.EventHandler(this.BtnGenerarExpediente_Click);
             // 
             // TxtCodTesis
             // 
-            this.TxtCodTesis.Location = new System.Drawing.Point(756, 176);
+            this.TxtCodTesis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.TxtCodTesis.Location = new System.Drawing.Point(683, 232);
             this.TxtCodTesis.Name = "TxtCodTesis";
-            this.TxtCodTesis.Size = new System.Drawing.Size(176, 22);
+            this.TxtCodTesis.ReadOnly = true;
+            this.TxtCodTesis.Size = new System.Drawing.Size(122, 22);
             this.TxtCodTesis.TabIndex = 193;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
-            this.groupBox4.Location = new System.Drawing.Point(80, 283);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox4.Size = new System.Drawing.Size(784, 123);
-            this.groupBox4.TabIndex = 195;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Interesado(s):";
             // 
             // TxtCodTramite
             // 
-            this.TxtCodTramite.Location = new System.Drawing.Point(756, 109);
+            this.TxtCodTramite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.TxtCodTramite.Location = new System.Drawing.Point(331, 234);
             this.TxtCodTramite.Name = "TxtCodTramite";
-            this.TxtCodTramite.Size = new System.Drawing.Size(176, 22);
+            this.TxtCodTramite.ReadOnly = true;
+            this.TxtCodTramite.Size = new System.Drawing.Size(126, 22);
             this.TxtCodTramite.TabIndex = 194;
             // 
             // groupBox1
@@ -162,11 +119,11 @@ namespace LibFormularios
             this.groupBox1.Controls.Add(this.TxtNroExpediente);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
-            this.groupBox1.Location = new System.Drawing.Point(80, 412);
+            this.groupBox1.Location = new System.Drawing.Point(31, 525);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(820, 124);
+            this.groupBox1.Size = new System.Drawing.Size(696, 124);
             this.groupBox1.TabIndex = 196;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Expediente";
@@ -187,13 +144,14 @@ namespace LibFormularios
             this.BtnGenerar.TabIndex = 181;
             this.BtnGenerar.Text = "Generar";
             this.BtnGenerar.UseVisualStyleBackColor = false;
+            this.BtnGenerar.Click += new System.EventHandler(this.BtnGenerar_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(448, 27);
+            this.label2.Location = new System.Drawing.Point(412, 30);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 24);
             this.label2.TabIndex = 146;
@@ -212,6 +170,7 @@ namespace LibFormularios
             // 
             // TxtNroExpediente
             // 
+            this.TxtNroExpediente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.TxtNroExpediente.Font = new System.Drawing.Font("Century Gothic", 10.8F);
             this.TxtNroExpediente.Location = new System.Drawing.Point(198, 24);
             this.TxtNroExpediente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -223,11 +182,77 @@ namespace LibFormularios
             // 
             this.dateTimePicker1.Enabled = false;
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(565, 20);
+            this.dateTimePicker1.Location = new System.Drawing.Point(506, 27);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(175, 28);
             this.dateTimePicker1.TabIndex = 178;
+            // 
+            // DgvSolitudesInscripcion
+            // 
+            this.DgvSolitudesInscripcion.AllowUserToAddRows = false;
+            this.DgvSolitudesInscripcion.AllowUserToDeleteRows = false;
+            this.DgvSolitudesInscripcion.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DgvSolitudesInscripcion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvSolitudesInscripcion.Location = new System.Drawing.Point(19, 20);
+            this.DgvSolitudesInscripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DgvSolitudesInscripcion.Name = "DgvSolitudesInscripcion";
+            this.DgvSolitudesInscripcion.ReadOnly = true;
+            this.DgvSolitudesInscripcion.RowHeadersWidth = 51;
+            this.DgvSolitudesInscripcion.RowTemplate.Height = 24;
+            this.DgvSolitudesInscripcion.Size = new System.Drawing.Size(883, 183);
+            this.DgvSolitudesInscripcion.TabIndex = 1;
+            // 
+            // BtnCargar
+            // 
+            this.BtnCargar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.BtnCargar.FlatAppearance.BorderSize = 0;
+            this.BtnCargar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(62)))), ((int)(((byte)(95)))));
+            this.BtnCargar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnCargar.ForeColor = System.Drawing.Color.Olive;
+            this.BtnCargar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCargar.Location = new System.Drawing.Point(19, 218);
+            this.BtnCargar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnCargar.Name = "BtnCargar";
+            this.BtnCargar.Size = new System.Drawing.Size(149, 54);
+            this.BtnCargar.TabIndex = 179;
+            this.BtnCargar.Text = "Cargar";
+            this.BtnCargar.UseVisualStyleBackColor = false;
+            this.BtnCargar.Click += new System.EventHandler(this.BtnCargar_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.BtnCargar);
+            this.groupBox3.Controls.Add(this.DgvSolitudesInscripcion);
+            this.groupBox3.Controls.Add(this.TxtCodTesis);
+            this.groupBox3.Controls.Add(this.TxtCodTramite);
+            this.groupBox3.Location = new System.Drawing.Point(21, 79);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(937, 354);
+            this.groupBox3.TabIndex = 192;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Solicitudes de Inscripción de Plan de Tesis";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(174, 237);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(137, 17);
+            this.label4.TabIndex = 196;
+            this.label4.Text = "Número del Trámite:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(500, 237);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(158, 17);
+            this.label3.TabIndex = 195;
+            this.label3.Text = "De la Tesis con Código:";
             // 
             // FrmGenerarExpediente
             // 
@@ -236,25 +261,21 @@ namespace LibFormularios
             this.ClientSize = new System.Drawing.Size(1007, 712);
             this.Name = "FrmGenerarExpediente";
             this.Text = "FrmGenerarExpediente";
+            this.Load += new System.EventHandler(this.FrmGenerarExpediente_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.DgvTramitesDeInscripcion)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvSolitudesInscripcion)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox3;
-        protected System.Windows.Forms.Button BtnCargar;
-        private System.Windows.Forms.DataGridView DgvTramitesDeInscripcion;
         protected System.Windows.Forms.Button BtnGenerarExpediente;
         private System.Windows.Forms.TextBox TxtCodTesis;
-        private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.TextBox TxtCodTramite;
         private System.Windows.Forms.GroupBox groupBox1;
         protected System.Windows.Forms.Button BtnGenerar;
@@ -262,5 +283,10 @@ namespace LibFormularios
         protected System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TxtNroExpediente;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        protected System.Windows.Forms.Button BtnCargar;
+        private System.Windows.Forms.DataGridView DgvSolitudesInscripcion;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
