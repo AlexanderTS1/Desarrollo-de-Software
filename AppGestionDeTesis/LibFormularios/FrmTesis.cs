@@ -31,7 +31,7 @@ namespace LibFormularios
             TxtEspecialidad.Text = aEntidad.ValorAtributo("especialidad");
             TxtEstado.Text = aEntidad.ValorAtributo("Estado");
         }
-        public void ConsultarTesis(TextBox tbox1,TextBox tbox2,TextBox tbox3, string codigotesis)
+        public void ConsultarTesis(TextBox tbox1,TextBox tbox2, string codigotesis)
         {
             CTesis tesis = new CTesis();
             if (tesis.ExisteClavePrimaria(codigotesis))
@@ -39,8 +39,7 @@ namespace LibFormularios
                 //MessageBox.Show("Codigo encontrado", "Se actualizaron los datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 //-- Recuperar atributos, el primer atributo es la clave 
                 tbox1.Text = tesis.ValorAtributo("Titulo");
-                tbox2.Text = tesis.ValorAtributo("Titulo");
-                tbox3.Text = tesis.ValorAtributo("Titulo");
+                tbox2.Text = tesis.ValorAtributo("Especialidad");
             }
             else
             {
@@ -115,7 +114,7 @@ namespace LibFormularios
             AddOwnedForm(A);
             A.Show();
             A.CajadeTexto = TxtCodTesis;
-            ConsultarTesis(TxtTituloT, TxtEspecialidad, TxtEstado, TxtCodTesis.Text);
+            ConsultarTesis(TxtTituloT, TxtEspecialidad, TxtCodTesis.Text);
         }
     }
 }
