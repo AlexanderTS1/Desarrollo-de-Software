@@ -124,5 +124,43 @@ namespace LibFormularios
             //..
             hideSubMenu();
         }
+
+        private void BtnBuscarDocente_Click(object sender, EventArgs e)
+        {
+            abrirFormHijoEnPanel(new FrmBuscarDocente());
+            // ..
+            //your codes
+            //..
+            hideSubMenu();
+
+        }
+
+        private void BtnBuscarAlumno_Click(object sender, EventArgs e)
+        {
+            abrirFormHijoEnPanel(new FrmBuscarTesista());
+            // ..
+            //your codes
+            //..
+            hideSubMenu();
+
+        }
+
+        private void BtnAsignarEvaluadores_Click(object sender, EventArgs e)
+        {
+            abrirFormHijoEnPanel(new FrmNombrarComisionRevisora());
+            // ..
+            //your codes
+            //..
+            hideSubMenu();
+        }
+
+        private void BtnGenerarExpediente_Click(object sender, EventArgs e)
+        {
+            abrirFormHijoEnPanel(new FrmGenerarExpediente());
+            // ..
+            //your codes
+            //..
+            hideSubMenu();
+        }
     }
 }

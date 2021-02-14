@@ -31,80 +31,91 @@ namespace LibFormularios
         {
             this.label1 = new System.Windows.Forms.Label();
             this.GboTesista1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.TxtApellidosTesista1 = new System.Windows.Forms.TextBox();
-            this.TxtNombresTesita1 = new System.Windows.Forms.TextBox();
+            this.BtnBuscarTesista1 = new System.Windows.Forms.Button();
+            this.TxtApeTesista1 = new System.Windows.Forms.TextBox();
+            this.TxtNombreTesista1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.TxtCodTesista1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.GboTesista2 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.BtnBuscarTesista2 = new System.Windows.Forms.Button();
+            this.TxtApeTesista2 = new System.Windows.Forms.TextBox();
+            this.TxtNombreTesista2 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.TxtCodTesista2 = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.GboTesista3 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.BtnBuscarTesista3 = new System.Windows.Forms.Button();
+            this.TxtApeTesista3 = new System.Windows.Forms.TextBox();
+            this.TxtNombreTesista3 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.TxtCodTesista3 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.BtnBuscarDocente = new System.Windows.Forms.Button();
+            this.TxtApellidosDocente = new System.Windows.Forms.TextBox();
+            this.TxtNombresDocente = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtCodDocente = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.CboNroTesistas = new System.Windows.Forms.ComboBox();
+            this.CboNroTesista = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.CboTipoTramite = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.ChlRequisitosXTramite = new System.Windows.Forms.CheckedListBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.GboDocenteAsesor = new System.Windows.Forms.GroupBox();
+            this.BtnGenerar = new System.Windows.Forms.Button();
             this.LblCodTesis = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.TxtEspecialidad = new System.Windows.Forms.TextBox();
+            this.TxtTitulo = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.RdbCompleto = new System.Windows.Forms.RadioButton();
+            this.RdbImcompleto = new System.Windows.Forms.RadioButton();
+            this.BtnIniciarTramite = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.GboTesista1.SuspendLayout();
             this.GboTesista2.SuspendLayout();
             this.GboTesista3.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.GboDocenteAsesor.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.groupBox2);
+            this.panel1.Controls.Add(this.RdbImcompleto);
+            this.panel1.Controls.Add(this.RdbCompleto);
+            this.panel1.Controls.Add(this.GboDocenteAsesor);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.ChlRequisitosXTramite);
             this.panel1.Controls.Add(this.CboTipoTramite);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.CboNroTesistas);
+            this.panel1.Controls.Add(this.CboNroTesista);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.GboTesista3);
             this.panel1.Controls.Add(this.GboTesista1);
             this.panel1.Controls.Add(this.GboTesista2);
-            this.panel1.Size = new System.Drawing.Size(962, 853);
+            this.panel1.Size = new System.Drawing.Size(1002, 853);
             // 
             // LblTitulo
             // 
+            this.LblTitulo.Size = new System.Drawing.Size(1002, 55);
             this.LblTitulo.Text = "INSCRIPCIÓN DEL PLAN DE TESIS";
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.BtnIniciarTramite);
             this.panel4.Location = new System.Drawing.Point(0, 795);
+            this.panel4.Size = new System.Drawing.Size(1002, 58);
+            this.panel4.Controls.SetChildIndex(this.BtnNuevo, 0);
+            this.panel4.Controls.SetChildIndex(this.BtnGuardar, 0);
+            this.panel4.Controls.SetChildIndex(this.BtnIniciarTramite, 0);
             // 
             // label1
             // 
@@ -119,9 +130,9 @@ namespace LibFormularios
             // 
             // GboTesista1
             // 
-            this.GboTesista1.Controls.Add(this.button1);
-            this.GboTesista1.Controls.Add(this.TxtApellidosTesista1);
-            this.GboTesista1.Controls.Add(this.TxtNombresTesita1);
+            this.GboTesista1.Controls.Add(this.BtnBuscarTesista1);
+            this.GboTesista1.Controls.Add(this.TxtApeTesista1);
+            this.GboTesista1.Controls.Add(this.TxtNombreTesista1);
             this.GboTesista1.Controls.Add(this.label6);
             this.GboTesista1.Controls.Add(this.label5);
             this.GboTesista1.Controls.Add(this.TxtCodTesista1);
@@ -133,28 +144,31 @@ namespace LibFormularios
             this.GboTesista1.TabStop = false;
             this.GboTesista1.Text = "Datos del tesista 1:";
             // 
-            // button1
+            // BtnBuscarTesista1
             // 
-            this.button1.Location = new System.Drawing.Point(232, 27);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "...";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnBuscarTesista1.Location = new System.Drawing.Point(232, 27);
+            this.BtnBuscarTesista1.Name = "BtnBuscarTesista1";
+            this.BtnBuscarTesista1.Size = new System.Drawing.Size(75, 23);
+            this.BtnBuscarTesista1.TabIndex = 18;
+            this.BtnBuscarTesista1.Text = "...";
+            this.BtnBuscarTesista1.UseVisualStyleBackColor = true;
+            this.BtnBuscarTesista1.Click += new System.EventHandler(this.BtnBuscarTesista1_Click);
             // 
-            // TxtApellidosTesista1
+            // TxtApeTesista1
             // 
-            this.TxtApellidosTesista1.Location = new System.Drawing.Point(514, 63);
-            this.TxtApellidosTesista1.Name = "TxtApellidosTesista1";
-            this.TxtApellidosTesista1.Size = new System.Drawing.Size(259, 22);
-            this.TxtApellidosTesista1.TabIndex = 17;
+            this.TxtApeTesista1.Location = new System.Drawing.Point(514, 63);
+            this.TxtApeTesista1.Name = "TxtApeTesista1";
+            this.TxtApeTesista1.ReadOnly = true;
+            this.TxtApeTesista1.Size = new System.Drawing.Size(259, 22);
+            this.TxtApeTesista1.TabIndex = 17;
             // 
-            // TxtNombresTesita1
+            // TxtNombreTesista1
             // 
-            this.TxtNombresTesita1.Location = new System.Drawing.Point(126, 58);
-            this.TxtNombresTesita1.Name = "TxtNombresTesita1";
-            this.TxtNombresTesita1.Size = new System.Drawing.Size(165, 22);
-            this.TxtNombresTesita1.TabIndex = 14;
+            this.TxtNombreTesista1.Location = new System.Drawing.Point(126, 58);
+            this.TxtNombreTesista1.Name = "TxtNombreTesista1";
+            this.TxtNombreTesista1.ReadOnly = true;
+            this.TxtNombreTesista1.Size = new System.Drawing.Size(165, 22);
+            this.TxtNombreTesista1.TabIndex = 14;
             // 
             // label6
             // 
@@ -184,6 +198,7 @@ namespace LibFormularios
             this.TxtCodTesista1.Name = "TxtCodTesista1";
             this.TxtCodTesista1.Size = new System.Drawing.Size(100, 22);
             this.TxtCodTesista1.TabIndex = 6;
+            this.TxtCodTesista1.TextChanged += new System.EventHandler(this.TxtCodTesista1_TextChanged);
             // 
             // label4
             // 
@@ -198,9 +213,9 @@ namespace LibFormularios
             // 
             // GboTesista2
             // 
-            this.GboTesista2.Controls.Add(this.button2);
-            this.GboTesista2.Controls.Add(this.textBox11);
-            this.GboTesista2.Controls.Add(this.textBox13);
+            this.GboTesista2.Controls.Add(this.BtnBuscarTesista2);
+            this.GboTesista2.Controls.Add(this.TxtApeTesista2);
+            this.GboTesista2.Controls.Add(this.TxtNombreTesista2);
             this.GboTesista2.Controls.Add(this.label15);
             this.GboTesista2.Controls.Add(this.label16);
             this.GboTesista2.Controls.Add(this.TxtCodTesista2);
@@ -212,28 +227,31 @@ namespace LibFormularios
             this.GboTesista2.TabStop = false;
             this.GboTesista2.Text = "Datos del tesista 2:";
             // 
-            // button2
+            // BtnBuscarTesista2
             // 
-            this.button2.Location = new System.Drawing.Point(233, 29);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "...";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnBuscarTesista2.Location = new System.Drawing.Point(233, 29);
+            this.BtnBuscarTesista2.Name = "BtnBuscarTesista2";
+            this.BtnBuscarTesista2.Size = new System.Drawing.Size(75, 23);
+            this.BtnBuscarTesista2.TabIndex = 19;
+            this.BtnBuscarTesista2.Text = "...";
+            this.BtnBuscarTesista2.UseVisualStyleBackColor = true;
+            this.BtnBuscarTesista2.Click += new System.EventHandler(this.BtnBuscarTesista2_Click);
             // 
-            // textBox11
+            // TxtApeTesista2
             // 
-            this.textBox11.Location = new System.Drawing.Point(515, 59);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(259, 22);
-            this.textBox11.TabIndex = 31;
+            this.TxtApeTesista2.Location = new System.Drawing.Point(515, 59);
+            this.TxtApeTesista2.Name = "TxtApeTesista2";
+            this.TxtApeTesista2.ReadOnly = true;
+            this.TxtApeTesista2.Size = new System.Drawing.Size(259, 22);
+            this.TxtApeTesista2.TabIndex = 31;
             // 
-            // textBox13
+            // TxtNombreTesista2
             // 
-            this.textBox13.Location = new System.Drawing.Point(125, 60);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(165, 22);
-            this.textBox13.TabIndex = 29;
+            this.TxtNombreTesista2.Location = new System.Drawing.Point(125, 60);
+            this.TxtNombreTesista2.Name = "TxtNombreTesista2";
+            this.TxtNombreTesista2.ReadOnly = true;
+            this.TxtNombreTesista2.Size = new System.Drawing.Size(165, 22);
+            this.TxtNombreTesista2.TabIndex = 29;
             // 
             // label15
             // 
@@ -263,6 +281,7 @@ namespace LibFormularios
             this.TxtCodTesista2.Name = "TxtCodTesista2";
             this.TxtCodTesista2.Size = new System.Drawing.Size(100, 22);
             this.TxtCodTesista2.TabIndex = 21;
+            this.TxtCodTesista2.TextChanged += new System.EventHandler(this.TxtCodTesista2_TextChanged);
             // 
             // label17
             // 
@@ -277,42 +296,45 @@ namespace LibFormularios
             // 
             // GboTesista3
             // 
-            this.GboTesista3.Controls.Add(this.button3);
-            this.GboTesista3.Controls.Add(this.textBox1);
-            this.GboTesista3.Controls.Add(this.textBox2);
+            this.GboTesista3.Controls.Add(this.BtnBuscarTesista3);
+            this.GboTesista3.Controls.Add(this.TxtApeTesista3);
+            this.GboTesista3.Controls.Add(this.TxtNombreTesista3);
             this.GboTesista3.Controls.Add(this.label9);
             this.GboTesista3.Controls.Add(this.label12);
-            this.GboTesista3.Controls.Add(this.textBox4);
+            this.GboTesista3.Controls.Add(this.TxtCodTesista3);
             this.GboTesista3.Controls.Add(this.label13);
             this.GboTesista3.Location = new System.Drawing.Point(22, 406);
             this.GboTesista3.Name = "GboTesista3";
             this.GboTesista3.Size = new System.Drawing.Size(909, 100);
             this.GboTesista3.TabIndex = 32;
             this.GboTesista3.TabStop = false;
-            this.GboTesista3.Text = "Datos del tesista 2:";
+            this.GboTesista3.Text = "Datos del tesista 3:";
             // 
-            // button3
+            // BtnBuscarTesista3
             // 
-            this.button3.Location = new System.Drawing.Point(232, 30);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 32;
-            this.button3.Text = "...";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BtnBuscarTesista3.Location = new System.Drawing.Point(232, 30);
+            this.BtnBuscarTesista3.Name = "BtnBuscarTesista3";
+            this.BtnBuscarTesista3.Size = new System.Drawing.Size(75, 23);
+            this.BtnBuscarTesista3.TabIndex = 32;
+            this.BtnBuscarTesista3.Text = "...";
+            this.BtnBuscarTesista3.UseVisualStyleBackColor = true;
+            this.BtnBuscarTesista3.Click += new System.EventHandler(this.BtnBuscarTesista2_Click);
             // 
-            // textBox1
+            // TxtApeTesista3
             // 
-            this.textBox1.Location = new System.Drawing.Point(515, 58);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(259, 22);
-            this.textBox1.TabIndex = 31;
+            this.TxtApeTesista3.Location = new System.Drawing.Point(515, 58);
+            this.TxtApeTesista3.Name = "TxtApeTesista3";
+            this.TxtApeTesista3.ReadOnly = true;
+            this.TxtApeTesista3.Size = new System.Drawing.Size(259, 22);
+            this.TxtApeTesista3.TabIndex = 31;
             // 
-            // textBox2
+            // TxtNombreTesista3
             // 
-            this.textBox2.Location = new System.Drawing.Point(125, 59);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(165, 22);
-            this.textBox2.TabIndex = 29;
+            this.TxtNombreTesista3.Location = new System.Drawing.Point(125, 59);
+            this.TxtNombreTesista3.Name = "TxtNombreTesista3";
+            this.TxtNombreTesista3.ReadOnly = true;
+            this.TxtNombreTesista3.Size = new System.Drawing.Size(165, 22);
+            this.TxtNombreTesista3.TabIndex = 29;
             // 
             // label9
             // 
@@ -336,12 +358,13 @@ namespace LibFormularios
             this.label12.Text = "Nombre:";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox4
+            // TxtCodTesista3
             // 
-            this.textBox4.Location = new System.Drawing.Point(125, 30);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 21;
+            this.TxtCodTesista3.Location = new System.Drawing.Point(125, 30);
+            this.TxtCodTesista3.Name = "TxtCodTesista3";
+            this.TxtCodTesista3.Size = new System.Drawing.Size(100, 22);
+            this.TxtCodTesista3.TabIndex = 21;
+            this.TxtCodTesista3.TextChanged += new System.EventHandler(this.BtnBuscarTesista3_Click);
             // 
             // label13
             // 
@@ -356,12 +379,12 @@ namespace LibFormularios
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.BtnBuscarDocente);
+            this.groupBox1.Controls.Add(this.TxtApellidosDocente);
+            this.groupBox1.Controls.Add(this.TxtNombresDocente);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.txtCodDocente);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Location = new System.Drawing.Point(22, 512);
             this.groupBox1.Name = "groupBox1";
@@ -370,28 +393,31 @@ namespace LibFormularios
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del docente de Asesor";
             // 
-            // button4
+            // BtnBuscarDocente
             // 
-            this.button4.Location = new System.Drawing.Point(232, 29);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 33;
-            this.button4.Text = "...";
-            this.button4.UseVisualStyleBackColor = true;
+            this.BtnBuscarDocente.Location = new System.Drawing.Point(232, 29);
+            this.BtnBuscarDocente.Name = "BtnBuscarDocente";
+            this.BtnBuscarDocente.Size = new System.Drawing.Size(75, 23);
+            this.BtnBuscarDocente.TabIndex = 33;
+            this.BtnBuscarDocente.Text = "...";
+            this.BtnBuscarDocente.UseVisualStyleBackColor = true;
+            this.BtnBuscarDocente.Click += new System.EventHandler(this.BtnBuscarDocente_Click);
             // 
-            // textBox3
+            // TxtApellidosDocente
             // 
-            this.textBox3.Location = new System.Drawing.Point(515, 58);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(259, 22);
-            this.textBox3.TabIndex = 31;
+            this.TxtApellidosDocente.Location = new System.Drawing.Point(515, 58);
+            this.TxtApellidosDocente.Name = "TxtApellidosDocente";
+            this.TxtApellidosDocente.ReadOnly = true;
+            this.TxtApellidosDocente.Size = new System.Drawing.Size(259, 22);
+            this.TxtApellidosDocente.TabIndex = 31;
             // 
-            // textBox5
+            // TxtNombresDocente
             // 
-            this.textBox5.Location = new System.Drawing.Point(125, 59);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(165, 22);
-            this.textBox5.TabIndex = 29;
+            this.TxtNombresDocente.Location = new System.Drawing.Point(125, 59);
+            this.TxtNombresDocente.Name = "TxtNombresDocente";
+            this.TxtNombresDocente.ReadOnly = true;
+            this.TxtNombresDocente.Size = new System.Drawing.Size(165, 22);
+            this.TxtNombresDocente.TabIndex = 29;
             // 
             // label2
             // 
@@ -415,12 +441,13 @@ namespace LibFormularios
             this.label7.Text = "Nombre:";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox6
+            // txtCodDocente
             // 
-            this.textBox6.Location = new System.Drawing.Point(125, 30);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 21;
+            this.txtCodDocente.Location = new System.Drawing.Point(125, 30);
+            this.txtCodDocente.Name = "txtCodDocente";
+            this.txtCodDocente.Size = new System.Drawing.Size(100, 22);
+            this.txtCodDocente.TabIndex = 21;
+            this.txtCodDocente.TextChanged += new System.EventHandler(this.txtCodDocente_TextChanged);
             // 
             // label8
             // 
@@ -433,17 +460,17 @@ namespace LibFormularios
             this.label8.Text = "Código:";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // CboNroTesistas
+            // CboNroTesista
             // 
-            this.CboNroTesistas.Items.AddRange(new object[] {
+            this.CboNroTesista.Items.AddRange(new object[] {
             "1",
             "2",
             "3"});
-            this.CboNroTesistas.Location = new System.Drawing.Point(237, 134);
-            this.CboNroTesistas.Name = "CboNroTesistas";
-            this.CboNroTesistas.Size = new System.Drawing.Size(268, 24);
-            this.CboNroTesistas.TabIndex = 33;
-            this.CboNroTesistas.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
+            this.CboNroTesista.Location = new System.Drawing.Point(237, 134);
+            this.CboNroTesista.Name = "CboNroTesista";
+            this.CboNroTesista.Size = new System.Drawing.Size(76, 24);
+            this.CboNroTesista.TabIndex = 33;
+            this.CboNroTesista.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // label18
             // 
@@ -462,10 +489,11 @@ namespace LibFormularios
             "Estudiante",
             "Egresado",
             "Bachiller"});
-            this.CboTipoTramite.Location = new System.Drawing.Point(178, 74);
+            this.CboTipoTramite.Location = new System.Drawing.Point(124, 74);
             this.CboTipoTramite.Name = "CboTipoTramite";
-            this.CboTipoTramite.Size = new System.Drawing.Size(327, 24);
+            this.CboTipoTramite.Size = new System.Drawing.Size(205, 24);
             this.CboTipoTramite.TabIndex = 35;
+            this.CboTipoTramite.SelectedIndexChanged += new System.EventHandler(this.CboCodTramite_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -481,59 +509,61 @@ namespace LibFormularios
             // ChlRequisitosXTramite
             // 
             this.ChlRequisitosXTramite.FormattingEnabled = true;
-            this.ChlRequisitosXTramite.Location = new System.Drawing.Point(518, 74);
+            this.ChlRequisitosXTramite.Location = new System.Drawing.Point(340, 74);
             this.ChlRequisitosXTramite.Name = "ChlRequisitosXTramite";
             this.ChlRequisitosXTramite.Size = new System.Drawing.Size(413, 123);
             this.ChlRequisitosXTramite.TabIndex = 146;
+            this.ChlRequisitosXTramite.SelectedIndexChanged += new System.EventHandler(this.ChlRequisitosXTramite_SelectedIndexChanged);
             // 
-            // groupBox2
+            // GboDocenteAsesor
             // 
-            this.groupBox2.Controls.Add(this.button5);
-            this.groupBox2.Controls.Add(this.LblCodTesis);
-            this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Location = new System.Drawing.Point(22, 629);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(909, 126);
-            this.groupBox2.TabIndex = 34;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Datos de la tesis";
+            this.GboDocenteAsesor.Controls.Add(this.BtnGenerar);
+            this.GboDocenteAsesor.Controls.Add(this.LblCodTesis);
+            this.GboDocenteAsesor.Controls.Add(this.TxtEspecialidad);
+            this.GboDocenteAsesor.Controls.Add(this.TxtTitulo);
+            this.GboDocenteAsesor.Controls.Add(this.label10);
+            this.GboDocenteAsesor.Controls.Add(this.label11);
+            this.GboDocenteAsesor.Controls.Add(this.label14);
+            this.GboDocenteAsesor.Location = new System.Drawing.Point(22, 629);
+            this.GboDocenteAsesor.Name = "GboDocenteAsesor";
+            this.GboDocenteAsesor.Size = new System.Drawing.Size(909, 126);
+            this.GboDocenteAsesor.TabIndex = 34;
+            this.GboDocenteAsesor.TabStop = false;
+            this.GboDocenteAsesor.Text = "Datos de la tesis";
             // 
-            // button5
+            // BtnGenerar
             // 
-            this.button5.Location = new System.Drawing.Point(232, 30);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(237, 23);
-            this.button5.TabIndex = 34;
-            this.button5.Text = "Generar Código de la tesis";
-            this.button5.UseVisualStyleBackColor = true;
+            this.BtnGenerar.Location = new System.Drawing.Point(297, 30);
+            this.BtnGenerar.Name = "BtnGenerar";
+            this.BtnGenerar.Size = new System.Drawing.Size(237, 23);
+            this.BtnGenerar.TabIndex = 34;
+            this.BtnGenerar.Text = "Generar Código de la tesis";
+            this.BtnGenerar.UseVisualStyleBackColor = true;
+            this.BtnGenerar.Click += new System.EventHandler(this.BtnGenerar_Click);
             // 
             // LblCodTesis
             // 
             this.LblCodTesis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.LblCodTesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCodTesis.Location = new System.Drawing.Point(126, 30);
+            this.LblCodTesis.Location = new System.Drawing.Point(191, 30);
             this.LblCodTesis.Name = "LblCodTesis";
             this.LblCodTesis.Size = new System.Drawing.Size(100, 22);
             this.LblCodTesis.TabIndex = 32;
             this.LblCodTesis.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox7
+            // TxtEspecialidad
             // 
-            this.textBox7.Location = new System.Drawing.Point(191, 96);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(536, 22);
-            this.textBox7.TabIndex = 31;
+            this.TxtEspecialidad.Location = new System.Drawing.Point(191, 96);
+            this.TxtEspecialidad.Name = "TxtEspecialidad";
+            this.TxtEspecialidad.Size = new System.Drawing.Size(712, 22);
+            this.TxtEspecialidad.TabIndex = 31;
             // 
-            // textBox8
+            // TxtTitulo
             // 
-            this.textBox8.Location = new System.Drawing.Point(191, 59);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(536, 22);
-            this.textBox8.TabIndex = 29;
+            this.TxtTitulo.Location = new System.Drawing.Point(191, 59);
+            this.TxtTitulo.Name = "TxtTitulo";
+            this.TxtTitulo.Size = new System.Drawing.Size(712, 22);
+            this.TxtTitulo.TabIndex = 29;
             // 
             // label10
             // 
@@ -550,7 +580,7 @@ namespace LibFormularios
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(31, 59);
+            this.label11.Location = new System.Drawing.Point(79, 59);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(62, 20);
             this.label11.TabIndex = 22;
@@ -561,22 +591,61 @@ namespace LibFormularios
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(31, 30);
+            this.label14.Location = new System.Drawing.Point(68, 30);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(73, 20);
             this.label14.TabIndex = 20;
             this.label14.Text = "Código:";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // RdbCompleto
+            // 
+            this.RdbCompleto.AutoSize = true;
+            this.RdbCompleto.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RdbCompleto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.RdbCompleto.Location = new System.Drawing.Point(781, 91);
+            this.RdbCompleto.Name = "RdbCompleto";
+            this.RdbCompleto.Size = new System.Drawing.Size(165, 21);
+            this.RdbCompleto.TabIndex = 147;
+            this.RdbCompleto.Text = "Requsito Completo";
+            this.RdbCompleto.UseVisualStyleBackColor = true;
+            this.RdbCompleto.CheckedChanged += new System.EventHandler(this.RdbCompleto_CheckedChanged);
+            // 
+            // RdbImcompleto
+            // 
+            this.RdbImcompleto.AutoSize = true;
+            this.RdbImcompleto.Checked = true;
+            this.RdbImcompleto.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RdbImcompleto.ForeColor = System.Drawing.Color.Red;
+            this.RdbImcompleto.Location = new System.Drawing.Point(781, 167);
+            this.RdbImcompleto.Name = "RdbImcompleto";
+            this.RdbImcompleto.Size = new System.Drawing.Size(199, 21);
+            this.RdbImcompleto.TabIndex = 148;
+            this.RdbImcompleto.TabStop = true;
+            this.RdbImcompleto.Text = "Requisitos Imcompletos";
+            this.RdbImcompleto.UseVisualStyleBackColor = true;
+            this.RdbImcompleto.CheckedChanged += new System.EventHandler(this.RdbImcompleto_CheckedChanged);
+            // 
+            // BtnIniciarTramite
+            // 
+            this.BtnIniciarTramite.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnIniciarTramite.Location = new System.Drawing.Point(580, 15);
+            this.BtnIniciarTramite.Name = "BtnIniciarTramite";
+            this.BtnIniciarTramite.Size = new System.Drawing.Size(345, 31);
+            this.BtnIniciarTramite.TabIndex = 35;
+            this.BtnIniciarTramite.Text = "Solicitar Inscripcion";
+            this.BtnIniciarTramite.UseVisualStyleBackColor = true;
+            this.BtnIniciarTramite.Click += new System.EventHandler(this.BtnIniciarTramite_Click);
+            // 
             // FrmInscripcion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 853);
+            this.ClientSize = new System.Drawing.Size(1002, 853);
             this.Name = "FrmInscripcion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmInscripcion";
-            this.Load += new System.EventHandler(this.FrmInscripcion_Load);
+            this.Load += new System.EventHandler(this.FrmInscripcion1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -588,58 +657,61 @@ namespace LibFormularios
             this.GboTesista3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.GboDocenteAsesor.ResumeLayout(false);
+            this.GboDocenteAsesor.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.GroupBox GboTesista1;
-        private System.Windows.Forms.TextBox TxtApellidosTesista1;
-        private System.Windows.Forms.TextBox TxtNombresTesita1;
+        private System.Windows.Forms.TextBox TxtApeTesista1;
+        private System.Windows.Forms.TextBox TxtNombreTesista1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox TxtCodTesista1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox GboTesista2;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox TxtApeTesista2;
+        private System.Windows.Forms.TextBox TxtNombreTesista2;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox TxtCodTesista2;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox GboTesista3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TxtApeTesista3;
+        private System.Windows.Forms.TextBox TxtNombreTesista3;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox TxtCodTesista3;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox CboNroTesistas;
+        private System.Windows.Forms.ComboBox CboNroTesista;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.ComboBox CboTipoTramite;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckedListBox ChlRequisitosXTramite;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TxtApellidosDocente;
+        private System.Windows.Forms.TextBox TxtNombresDocente;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtCodDocente;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.GroupBox GboDocenteAsesor;
+        private System.Windows.Forms.Button BtnGenerar;
         private System.Windows.Forms.Label LblCodTesis;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox TxtEspecialidad;
+        private System.Windows.Forms.TextBox TxtTitulo;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnBuscarDocente;
+        private System.Windows.Forms.Button BtnBuscarTesista3;
+        private System.Windows.Forms.Button BtnBuscarTesista1;
+        private System.Windows.Forms.Button BtnBuscarTesista2;
+        private System.Windows.Forms.RadioButton RdbCompleto;
+        private System.Windows.Forms.RadioButton RdbImcompleto;
+        private System.Windows.Forms.Button BtnIniciarTramite;
     }
 }

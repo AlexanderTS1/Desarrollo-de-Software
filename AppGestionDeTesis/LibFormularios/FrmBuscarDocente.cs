@@ -33,6 +33,14 @@ namespace LibFormularios
         {
 
         }
+        private void TxtBuscar_KeyUp(object sender, KeyEventArgs e)
+        {
+            string Consulta = "select * from TDocente where " + CboCategoria.SelectedItem.ToString() + " like'" + TxtBuscar.Text + "%';";
+            dgvDocentes.DataSource = oDocente.Busqueda(Consulta);
+            dgvDocentes.Columns["CodDocente"].Visible = false;
+            dgvDocentes.Columns["Correo"].Visible = false;
+            dgvDocentes.Columns["NumeroCelular"].Visible = false;
+        }
         private void BtnSeleccionar_Click(object sender, EventArgs e)
         {
             FrmInscripcion frm = Owner as FrmInscripcion;
@@ -40,5 +48,7 @@ namespace LibFormularios
             CajadeTexto.Text = dgvDocentes.CurrentRow.Cells[0].Value.ToString();
             this.Close();
         }
+
+        
     }
 }

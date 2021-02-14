@@ -24,25 +24,31 @@ namespace LibFormularios
         {
             CboCategoria.SelectedIndex = 0;
             dgvTesista.DataSource = oTesista.ListaGeneral();
-            //dgvTesista.Columns["CodDocente"].Visible = false;
+            dgvTesista.Columns["CodTesista"].Visible = false;
             dgvTesista.Columns["CorreoElectronico"].Visible = false;
-            dgvTesista.Columns["Telefono"].Visible = false;
+            dgvTesista.Columns["telefono"].Visible = false;
+        }
+
+        private void TxtBuscar_TextChanged(object sender, EventArgs e)
+        {
+
         }
         private void TxtBuscar_KeyUp(object sender, KeyEventArgs e)
         {
             string Consulta = "select * from TTesista where " + CboCategoria.SelectedItem.ToString() + " like'" + TxtBuscar.Text + "%';";
             dgvTesista.DataSource = oTesista.Busqueda(Consulta);
-            //dgvTesista.Columns["CodDocente"].Visible = false;
-            //dgvTesista.Columns["CorreoElectronico"].Visible = false;
-            //dgvTesista.Columns["Telefono"].Visible = false;
+            dgvTesista.Columns["CodTesista"].Visible = false;
+            dgvTesista.Columns["CorreoElectronico"].Visible = false;
+            dgvTesista.Columns["telefono"].Visible = false;
         }
         private void BtnSeleccionar_Click(object sender, EventArgs e)
         {
             FrmInscripcion frm = Owner as FrmInscripcion;
-            //frm.CodigoBusquedaTesista1.Text = dgvTesista.CurrentRow.Cells[0].Value.ToString();
+            //frm.CodigoBusqueda.Text = dgvDocentes.CurrentRow.Cells[0].Value.ToString();
             CajadeTexto.Text = dgvTesista.CurrentRow.Cells[0].Value.ToString();
             this.Close();
         }
+
     }
 }
 

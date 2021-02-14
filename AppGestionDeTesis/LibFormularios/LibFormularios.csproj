@@ -49,6 +49,12 @@
     <Compile Include="FrmBuscarDocente.Designer.cs">
       <DependentUpon>FrmBuscarDocente.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmBuscarTesis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarTesis.Designer.cs">
+      <DependentUpon>FrmBuscarTesis.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBuscarTesista.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,11 +79,23 @@
     <Compile Include="FrmEditarRegistrosXTramite.Designer.cs">
       <DependentUpon>FrmEditarRegistrosXTramite.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGenerarExpediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGenerarExpediente.Designer.cs">
+      <DependentUpon>FrmGenerarExpediente.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmInscripcion.Designer.cs">
       <DependentUpon>FrmInscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNombrarComisionRevisora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNombrarComisionRevisora.Designer.cs">
+      <DependentUpon>FrmNombrarComisionRevisora.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
@@ -132,6 +150,9 @@
     <EmbeddedResource Include="FrmBuscarDocente.resx">
       <DependentUpon>FrmBuscarDocente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarTesis.resx">
+      <DependentUpon>FrmBuscarTesis.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmBuscarTesista.resx">
       <DependentUpon>FrmBuscarTesista.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,8 +165,14 @@
     <EmbeddedResource Include="FrmEditarRegistrosXTramite.resx">
       <DependentUpon>FrmEditarRegistrosXTramite.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGenerarExpediente.resx">
+      <DependentUpon>FrmGenerarExpediente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmInscripcion.resx">
       <DependentUpon>FrmInscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNombrarComisionRevisora.resx">
+      <DependentUpon>FrmNombrarComisionRevisora.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>

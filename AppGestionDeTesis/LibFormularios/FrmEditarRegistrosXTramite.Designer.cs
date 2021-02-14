@@ -39,6 +39,7 @@ namespace LibFormularios
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.BtnGuardar1);
             this.panel1.Controls.Add(this.ChlRequisitosXTramite);
             this.panel1.Controls.Add(this.CboCodTramite);
             this.panel1.Controls.Add(this.label1);
@@ -46,13 +47,6 @@ namespace LibFormularios
             // LblTitulo
             // 
             this.LblTitulo.Text = "EDITAR REQUSITOS POR TRAMITE";
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.BtnGuardar1);
-            this.panel4.Controls.SetChildIndex(this.BtnNuevo, 0);
-            this.panel4.Controls.SetChildIndex(this.BtnGuardar, 0);
-            this.panel4.Controls.SetChildIndex(this.BtnGuardar1, 0);
             // 
             // label1
             // 
@@ -82,7 +76,7 @@ namespace LibFormularios
             // 
             // BtnGuardar1
             // 
-            this.BtnGuardar1.Location = new System.Drawing.Point(637, 15);
+            this.BtnGuardar1.Location = new System.Drawing.Point(626, 611);
             this.BtnGuardar1.Name = "BtnGuardar1";
             this.BtnGuardar1.Size = new System.Drawing.Size(269, 31);
             this.BtnGuardar1.TabIndex = 3;

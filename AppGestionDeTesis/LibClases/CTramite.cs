@@ -22,12 +22,12 @@ namespace LibClases
 			return new string[] { "CodTramite", "Tipo" };
 		}
 		//------ Métodos especificos de Registro ----------------
-		/*public DataTable ListaEjemplaresDeLibro(string pCodLibro)
-		{ //-- lista los ejemplares que le corresponden a un libro determinado
-			string Consulta = "select * from C where CodTramite= '"
-		   + pCodTramite + "'";
-			aConexion.EjecutarSelect(Consulta);
+		public DataTable ListaTramitesDeInscripcionDeTesis()
+		{
+
+			string consulta = "select * from TIniciarTramiteInscripcionPlanDeTesis where Estado='RECIBIDO'";
+			aConexion.EjecutarSelect(consulta);
 			return aConexion.Datos.Tables[0];
-		}*/
+		}
 	}
 }

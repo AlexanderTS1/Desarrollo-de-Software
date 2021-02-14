@@ -20,7 +20,7 @@ namespace LibClases
 		//------ Implementación de metodos abstractos -----
 		public override string[] NombresAtributos()
 		{
-			return new string[] { "CodRequito", "TipoRequisito", "Descripcion" };
+			return new string[] { "CodRequisito", "TipoRequisito"};
 		}
 		public DataTable ListarTodosLosRequisitos()
 		{   //-- retorna una tabla con la lista completa de libros 

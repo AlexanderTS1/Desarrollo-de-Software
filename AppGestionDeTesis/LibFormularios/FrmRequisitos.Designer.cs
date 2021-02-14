@@ -30,10 +30,8 @@ namespace LibFormularios
         private void InitializeComponent()
         {
             this.DgvRequisito = new System.Windows.Forms.DataGridView();
-            this.TxtDescripcion = new System.Windows.Forms.TextBox();
             this.TxtNombre = new System.Windows.Forms.TextBox();
             this.TxtCodRequsito = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -44,10 +42,8 @@ namespace LibFormularios
             // panel1
             // 
             this.panel1.Controls.Add(this.DgvRequisito);
-            this.panel1.Controls.Add(this.TxtDescripcion);
             this.panel1.Controls.Add(this.TxtNombre);
             this.panel1.Controls.Add(this.TxtCodRequsito);
-            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             // 
@@ -57,6 +53,8 @@ namespace LibFormularios
             // 
             // DgvRequisito
             // 
+            this.DgvRequisito.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DgvRequisito.BackgroundColor = System.Drawing.SystemColors.Control;
             this.DgvRequisito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvRequisito.Location = new System.Drawing.Point(161, 354);
             this.DgvRequisito.Name = "DgvRequisito";
@@ -65,13 +63,6 @@ namespace LibFormularios
             this.DgvRequisito.RowTemplate.Height = 24;
             this.DgvRequisito.Size = new System.Drawing.Size(606, 356);
             this.DgvRequisito.TabIndex = 44;
-            // 
-            // TxtDescripcion
-            // 
-            this.TxtDescripcion.Location = new System.Drawing.Point(305, 193);
-            this.TxtDescripcion.Name = "TxtDescripcion";
-            this.TxtDescripcion.Size = new System.Drawing.Size(570, 22);
-            this.TxtDescripcion.TabIndex = 40;
             // 
             // TxtNombre
             // 
@@ -87,16 +78,6 @@ namespace LibFormularios
             this.TxtCodRequsito.Size = new System.Drawing.Size(136, 22);
             this.TxtCodRequsito.TabIndex = 38;
             this.TxtCodRequsito.Leave += new System.EventHandler(this.TxtCodRequsito_Leave);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(186, 195);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 17);
-            this.label3.TabIndex = 32;
-            this.label3.Text = "Descripcion:";
             // 
             // label2
             // 
@@ -137,10 +118,8 @@ namespace LibFormularios
         #endregion
 
         private System.Windows.Forms.DataGridView DgvRequisito;
-        private System.Windows.Forms.TextBox TxtDescripcion;
         private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.TextBox TxtCodRequsito;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 using LibClases;
 namespace LibClases
 {
@@ -18,7 +20,12 @@ namespace LibClases
 		//------ Implementación de metodos abstractos -----
 		public override string[] NombresAtributos()
 		{
-			return new string[] { "CodDocente", "DNI", "Apellidos", "Nombres", "Correo", "NumeroCelular", "Cargo" };
+			return new string[] { "CodDocente", "DNI", "Apellidos", "Nombres","GradoAcademico","categoria", "Correo", "NumeroCelular", "Cargo" };
+		}
+		public DataTable Busqueda(string Consulta)
+		{   //-- retorna una tabla con la lista completa de libros 
+			aConexion.EjecutarSelect(Consulta);
+			return aConexion.Datos.Tables[0];
 		}
 
 	}

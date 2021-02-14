@@ -15,7 +15,7 @@ namespace LibClases
 
         //================ METODOS ========================
         //	Constructores	 
-        public CRequisitoXTramite() : base("TRequisitoXTramite",true)
+        public CRequisitoXTramite() : base("TRequisitosXTramite",true)
         {
         }
         //------ Implementación de metodos abstractos -----
@@ -34,7 +34,7 @@ where a.CodRequisito=b.CodRequisito and c.CodTramite=a.CodTramite and c.CodTrami
              
              */
 
-            string Consulta = "select c.CodTramite,c.Tipo,b.CodRequisito,TipoRequisito from TRequisitoXTramite a,TRequisito b,TTramite c where a.CodRequisito = b.CodRequisito and c.CodTramite = a.CodTramite and c.CodTramite = '" + pCodTramite + "'";
+            string Consulta = "select c.CodTramite,c.Tipo,b.CodRequisito,TipoRequisito from TRequisitosXTramite a,TRequisito b,TTramite c where a.CodRequisito = b.CodRequisito and c.CodTramite = a.CodTramite and c.CodTramite = '" + pCodTramite + "'";
             aConexion.EjecutarSelect(Consulta);
             return aConexion.Datos.Tables[0];
         }
@@ -52,7 +52,7 @@ where a.CodRequisito=b.CodRequisito and c.CodTramite=a.CodTramite and c.CodTrami
             aConexion.EjecutarComando(Consulta);
             for (int i = 0; i < listaderequisitos.Count; i++)
             {
-                Consulta = " insert into TRequisitoXTramite values('" + pCodTramite + "', '" + listaderequisitos[i] + "') ";
+                Consulta = " insert into TRequisitosXTramite values('" + pCodTramite + "', '" + listaderequisitos[i] + "') ";
                 aConexion.EjecutarComando(Consulta);
 
             }
@@ -61,7 +61,7 @@ where a.CodRequisito=b.CodRequisito and c.CodTramite=a.CodTramite and c.CodTrami
         public DataTable ListarRequisitoXTramiteNombres(string pCodTramite)
         {
             string Consulta = "select c.CodTramite,c.Tipo,a.CodRequisito,TipoRequisito from " +
-                aNombreTabla + "  a,TRequisito b,TTramite c " +
+                aNombreTabla + "  a,TRequisitos b,TTramite c " +
 "where a.CodRequisito = b.CodRequisito and c.CodTramite = a.CodTramite and c.CodTramite ='" + pCodTramite + "'";
             aConexion.EjecutarSelect(Consulta);
             return aConexion.Datos.Tables[0];

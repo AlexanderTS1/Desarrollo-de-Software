@@ -101,8 +101,8 @@ namespace LibFormularios
             try
             {
                 //-- muestra la lista de libros en el combo
-                ChlRequisitosXTramite.DataSource= oRequisito.ListarTodosLosRequisitos();
-                //ChlRequisitosXTramite.DisplayMember = "TipoRequisito";
+                ChlRequisitosXTramite.DataSource = oRequisito.ListarTodosLosRequisitos();
+                ChlRequisitosXTramite.DisplayMember = "TipoRequisito";
                 ChlRequisitosXTramite.ValueMember = "TipoRequisito";
                 //-- dejar el combo sin libro seleccionado
                 ChlRequisitosXTramite.SelectedIndex = -1;
@@ -120,7 +120,7 @@ namespace LibFormularios
             {
                 //-- muestra la lista de libros en el combo
                 CboCodTramite.DataSource = oTramite.ListaGeneral();
-                //CboCodTramite.DisplayMember = "Tipo";
+                CboCodTramite.DisplayMember = "Tipo";
                 CboCodTramite.ValueMember = "Tipo";
                 //-- dejar el combo sin libro seleccionado
                 CboCodTramite.SelectedIndex = -1;

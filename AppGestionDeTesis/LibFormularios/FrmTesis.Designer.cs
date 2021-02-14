@@ -40,6 +40,7 @@ namespace LibFormularios
             this.DgvTesis = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvTesis)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -133,6 +134,8 @@ namespace LibFormularios
             // 
             // DgvTesis
             // 
+            this.DgvTesis.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DgvTesis.BackgroundColor = System.Drawing.SystemColors.Control;
             this.DgvTesis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvTesis.Location = new System.Drawing.Point(12, 351);
             this.DgvTesis.Name = "DgvTesis";
@@ -168,6 +171,7 @@ namespace LibFormularios
             this.Text = "FrmTesis";
             this.Load += new System.EventHandler(this.FrmTesis_Load);
             this.panel1.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DgvTesis)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

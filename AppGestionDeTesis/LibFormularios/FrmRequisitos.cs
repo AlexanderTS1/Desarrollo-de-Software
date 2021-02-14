@@ -20,14 +20,13 @@ namespace LibFormularios
         //-- Establecer los valores que iran a la tabla
         public override string[] AsignarValoresAtributos()
         {
-            return new string[] { TxtCodRequsito.Text, TxtNombre.Text, TxtDescripcion.Text};
+            return new string[] { TxtCodRequsito.Text, TxtNombre.Text};
         }
         //-----------------------------------------------------------
         //-- Mostrar los datos de un registro
         public override void MostrarDatos()
         { //-- muestra la informacion contenida en el dataset de CLibro
             TxtNombre.Text = aEntidad.ValorAtributo("Nombre");
-            TxtDescripcion.Text = aEntidad.ValorAtributo("Descripcion");
         }
         //-----------------------------------------------------------
         //-- Iniciar los atributos clave y no clave en blanco
@@ -38,7 +37,6 @@ namespace LibFormularios
         public override void InicializarAtributosNoClave()
         {
             TxtNombre.Text = "";
-            TxtDescripcion.Text = "";
         }
         //-----------------------------------------------------------
         //-- Listar los registros y mostrarlos en el datagrid
