@@ -80,18 +80,19 @@ namespace LibFormularios
                     listaExpediente.Add(TxtCodTesis.Text);
                     oPlanDeTesis.GenerarExpediente(listaExpediente);
                     //actualizar el estado del tramite a atendido
+                    
                     oPlanDeTesis.ActualizarEstadoDelTramite(TxtCodTramite.Text, TxtCodTesis.Text);
                     MessageBox.Show("OPERACION REALIZADA EXITOSAMENTE", "CONFIRMACION");
                     RellenarTablaTramites();
                 }
                 else
                 {
-                    MessageBox.Show("INGRESE UN NUMERO DE EXPEDIENTE", "ALERTA");
+                    MessageBox.Show("Ingresar Número de Expediente", "ALERTA");
                 }
             }
             catch
             {
-                MessageBox.Show("NUMERO DE EXPEDIENTE YA EXISTE", "ERROR");
+                MessageBox.Show("El número de expediente ya EXISTE", "ERROR");
             }
         }
 
@@ -116,7 +117,10 @@ namespace LibFormularios
             this.Close();
         }
 
-        
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 }

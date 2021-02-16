@@ -89,10 +89,9 @@ create table TRequisitosXTramite
 
 create table TComisionRevisora
 ( -- lista de atributos
-CodEvaluacionPlanDeTesis varchar(6),
+CodEvaluacionPlanTesis varchar(6),
 CodDocente varchar(6),
 -- especificacion de claves
-primary key (CodEvaluacionPlanDeTesis),
 foreign key (CodDocente) references TDocente
 )
 
@@ -143,9 +142,6 @@ create table TDocumentacion
 	-- especificacion de claves
 	primary key (NroExpediente),
 	foreign key (CodTesis) references TTesis,
-	foreign key (CodEvaluacionPlanDeTesis) references TComisionRevisora,
-	foreign key (CodDictamenDeTesis) references TDictaminantesDeTesis,
-	foreign key (CodSustentacionOral) references TJuradoEvaluador,
 )
 
 go
@@ -184,6 +180,7 @@ go
 create table TEvaluacionDeSustentacionDeTesis
 (	-- lista de atributos
 	CodSustentacionDeTesis varchar(6),
+	CodDocente varchar(6),
 	NotaPresentacionDeFormaDelTrabajoDeInvestigacion Varchar(3)        default 'NSP'
                         Check (NotaPresentacionDeFormaDelTrabajoDeInvestigacion in ('NSP','00',
                                         '01','02','03','04','05','06','07','08','09','10',
@@ -200,8 +197,6 @@ create table TEvaluacionDeSustentacionDeTesis
                         Check (NotaDesemvolvimientoEnLaAbsolucionDeLasPreguntas in ('NSP','00',
                                         '01','02','03','04','05','06','07','08','09','10',
                                         '11','12','13','14','15','16','17','18','19','20')),
-	Observacion varchar(500),
-	CodDocente varchar(6),
 	CodResolucion varchar(10),
 	-- definicion de la clave primaria
 	primary key (CodSustentacionDeTesis),
@@ -229,6 +224,7 @@ go
 create table TEvaluacionDePlanDeTesis
 (	-- lista de atributos
 	CodEvaluacionDePlanDeTesis varchar(6),
+	CodDocente varchar(6),
 	NotaIdentificacionDelProblema Varchar(3)        default 'NSP'
                         Check (NotaIdentificacionDelProblema in ('NSP','00',
                                         '01','02','03','04','05','06','07','08','09','10',
@@ -265,15 +261,11 @@ create table TEvaluacionDePlanDeTesis
                         Check (NotaPresentacionGeneralDelDocumentoDelPlan  in ('NSP','00',
                                         '01','02','03','04','05','06','07','08','09','10',
                                         '11','12','13','14','15','16','17','18','19','20')),
-	EscalaValoracion varchar(100),
-	Observacion varchar(500),
-	CodProveido varchar(10),
-	CodDocente varchar(6),
+	
 
 	-- definicion de la clave primaria
 	primary key (CodEvaluacionDePlanDeTesis),
-		-- definicion de la clave foranea
-	foreign key (CodProveido) references TProveido,
+		-- definicion de la clave foranea,
 	foreign key (CodDocente) references TDocente,
 )
 go
@@ -355,24 +347,21 @@ select * from TTesista
 
 
 insert into TTesis values('500000','IA','TITULO DE TESIS 1','D0001','REVISION')
-insert into TTesis values('500001','IA','TITULO DE TESIS 2','D0002','REVISION')
-insert into TTesis values('500002','IA','TITULO DE TESIS 3','D0003','REVISION')
-insert into TTesis values('500003','IA','TITULO DE TESIS 4','D0004','REVISION')
-insert into TTesis values('500004','IA','TITULO DE TESIS 5','D0005','REVISION')
+insert into TTesis values('500001','DS','TITULO DE TESIS 2','D0002','REVISION')
+insert into TTesis values('500002','DS','TITULO DE TESIS 3','D0003','REVISION')
+insert into TTesis values('500003','DS','TITULO DE TESIS 4','D0004','REVISION')
+insert into TTesis values('500004','DS','TITULO DE TESIS 5','D0005','REVISION')
 insert into TTesis values('500005','IA','TITULO DE TESIS 6','D0006','REVISION')
 insert into TTesis values('500006','IA','TITULO DE TESIS 7','D0007','REVISION')
-insert into TTesis values('500007','IA','TITULO DE TESIS 8','D0008','REVISION')
-insert into TTesis values('500008','IA','TITULO DE TESIS 9','D0009','REVISION')
 SELECT  * FROM TTesis
 select CodTesis from TTesis
 
 
 
 insert into TTramite values ('TR0001','Nombramiento de Asesor e Inscripcion de Plan de Tesis')
-insert into TTramite values ('TR0002','Solicitar Nombramiento de la Comision Revisora y su posterior Revision')
-insert into TTramite values ('TR0003','Solicitar Nombramiento de dictaminadores de Tesis y su posterior Revision')
-insert into TTramite values ('TR0004','Determinacion de Fecha, Hora y Lugar para Sustentacion de Tesis')
-
+--insert into TTramite values ('TR0002','Solicitar Nombramiento de la Comision Revisora y su posterior Revision')
+insert into TTramite values ('TR0002','Nombramiento de dictaminadores de Tesis y su posterior Dictamen')
+insert into TTramite values ('TR0003','Sustentacion de Tesis')
 
 
 insert into TRequisitos values ('REQ001','Solicitud Dirigida al Rector')
@@ -392,25 +381,25 @@ insert into TRequisitosXTramite values('TR0001' ,'REQ002')
 insert into TRequisitosXTramite values('TR0001' ,'REQ003')
 insert into TRequisitosXTramite values('TR0001' ,'REQ004')
 
-insert into TRequisitosXTramite values('TR0002' ,'REQ001')
-insert into TRequisitosXTramite values('TR0002' ,'REQ002')
-insert into TRequisitosXTramite values('TR0002' ,'REQ003')
+/*insert into TRequisitoXTramite values('TR0002' ,'REQ001')
+insert into TRequisitoXTramite values('TR0002' ,'REQ002')
+insert into TRequisitoXTramite values('TR0002' ,'REQ003')
 
-select * from TTramite where CodTramite='TR0002'
+select * from TTramite where CodTramite='TR0002'*/
 
 
 delete from TTramite where CodTramite='TR0005'
-insert into TRequisitosXTramite values('TR0003' ,'REQ001')
-insert into TRequisitosXTramite values('TR0003' ,'REQ005')
-insert into TRequisitosXTramite values('TR0003' ,'REQ006')
-insert into TRequisitosXTramite values('TR0003' ,'REQ007')
-insert into TRequisitosXTramite values('TR0003' ,'REQ008')
-insert into TRequisitosXTramite values('TR0003' ,'REQ009')
+insert into TRequisitosXTramite values('TR0002' ,'REQ001')
+insert into TRequisitosXTramite values('TR0002' ,'REQ005')
+insert into TRequisitosXTramite values('TR0002' ,'REQ006')
+insert into TRequisitosXTramite values('TR0002' ,'REQ007')
+insert into TRequisitosXTramite values('TR0002' ,'REQ008')
+insert into TRequisitosXTramite values('TR0002' ,'REQ009')
 
-insert into TRequisitosXTramite values('TR0004' ,'REQ001')
-insert into TRequisitosXTramite values('TR0004' ,'REQ010')
-insert into TRequisitosXTramite values('TR0004' ,'REQ011')
-insert into TRequisitosXTramite values('TR0004' ,'REQ009')
+insert into TRequisitosXTramite values('TR0003' ,'REQ001')
+insert into TRequisitosXTramite values('TR0003' ,'REQ010')
+insert into TRequisitosXTramite values('TR0003' ,'REQ011')
+insert into TRequisitosXTramite values('TR0003' ,'REQ009')
 
 select * from TDocumentacion
 
@@ -439,3 +428,10 @@ select * from TDocumentacion
 --insert into TRequisito values ('REQ010','Copia de Resolucion de Aprobacion de Dictamen de Tesis')
 --insert into TRequisito values ('REQ011','05 ejemplares de tesis ')
 --insert into TRequisito values ('REQ009','Pago por Derechos de Tramite')
+
+---CONSULTAS
+select * from TSolicitudInscripcion
+select a.NroExpediente,a.CodEvaluacionPlanDeTesis,a.CodTesis,b.Titulo,b.Especialidad,b.Estado  
+from TDocumentacion a inner join TTesis b on a.CodTesis=b.CodTesis where CodEvaluacionPlanDeTesis=''
+select * from TComisionRevisora 
+select * from  TDocumentacion 

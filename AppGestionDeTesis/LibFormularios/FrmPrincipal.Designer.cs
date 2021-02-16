@@ -31,8 +31,14 @@ namespace LibFormularios
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.PnlSubDictamen = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.BtnEvaluacion = new System.Windows.Forms.Button();
+            this.BtnDesignarDictaminantes = new System.Windows.Forms.Button();
+            this.BtnDictamen = new System.Windows.Forms.Button();
             this.PnlSubprocesos = new System.Windows.Forms.Panel();
+            this.BtnEvaluacionTesis = new System.Windows.Forms.Button();
             this.BtnGenerarExpediente = new System.Windows.Forms.Button();
             this.BtnAsignarEvaluadores = new System.Windows.Forms.Button();
             this.BtnInscribirPlanDeTesis = new System.Windows.Forms.Button();
@@ -40,6 +46,7 @@ namespace LibFormularios
             this.PnlSubMantenimiento = new System.Windows.Forms.Panel();
             this.BtnRequisitosPorTramite = new System.Windows.Forms.Button();
             this.BtnRequisitos = new System.Windows.Forms.Button();
+            this.BtnTesis = new System.Windows.Forms.Button();
             this.BtnTesistas = new System.Windows.Forms.Button();
             this.BtnDocentes = new System.Windows.Forms.Button();
             this.BtnMantenimiento = new System.Windows.Forms.Button();
@@ -51,8 +58,9 @@ namespace LibFormularios
             this.PbxMinimizar = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BtnTesis = new System.Windows.Forms.Button();
+            this.BtnInformeEvaluacion = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.PnlSubDictamen.SuspendLayout();
             this.PnlSubprocesos.SuspendLayout();
             this.PnlSubMantenimiento.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -68,7 +76,8 @@ namespace LibFormularios
             // 
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.PnlSubDictamen);
+            this.panel1.Controls.Add(this.BtnDictamen);
             this.panel1.Controls.Add(this.PnlSubprocesos);
             this.panel1.Controls.Add(this.BtnInscripcion);
             this.panel1.Controls.Add(this.PnlSubMantenimiento);
@@ -81,26 +90,117 @@ namespace LibFormularios
             this.panel1.Size = new System.Drawing.Size(251, 884);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // PnlSubDictamen
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 702);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(251, 46);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "EVALUACION ";
-            this.button1.UseVisualStyleBackColor = false;
+            this.PnlSubDictamen.Controls.Add(this.button2);
+            this.PnlSubDictamen.Controls.Add(this.button4);
+            this.PnlSubDictamen.Controls.Add(this.BtnEvaluacion);
+            this.PnlSubDictamen.Controls.Add(this.BtnDesignarDictaminantes);
+            this.PnlSubDictamen.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PnlSubDictamen.Location = new System.Drawing.Point(0, 877);
+            this.PnlSubDictamen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PnlSubDictamen.Name = "PnlSubDictamen";
+            this.PnlSubDictamen.Size = new System.Drawing.Size(230, 243);
+            this.PnlSubDictamen.TabIndex = 8;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(0, 138);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(230, 61);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "EVALUACION DE TESIS";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 92);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(230, 46);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "INFORME";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // BtnEvaluacion
+            // 
+            this.BtnEvaluacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.BtnEvaluacion.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnEvaluacion.FlatAppearance.BorderSize = 0;
+            this.BtnEvaluacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEvaluacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEvaluacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnEvaluacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEvaluacion.Location = new System.Drawing.Point(0, 46);
+            this.BtnEvaluacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnEvaluacion.Name = "BtnEvaluacion";
+            this.BtnEvaluacion.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.BtnEvaluacion.Size = new System.Drawing.Size(230, 46);
+            this.BtnEvaluacion.TabIndex = 7;
+            this.BtnEvaluacion.Text = "EVALUACIÓN";
+            this.BtnEvaluacion.UseVisualStyleBackColor = false;
+            this.BtnEvaluacion.Click += new System.EventHandler(this.BtnEvaluacion_Click);
+            // 
+            // BtnDesignarDictaminantes
+            // 
+            this.BtnDesignarDictaminantes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.BtnDesignarDictaminantes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnDesignarDictaminantes.FlatAppearance.BorderSize = 0;
+            this.BtnDesignarDictaminantes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnDesignarDictaminantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDesignarDictaminantes.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnDesignarDictaminantes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnDesignarDictaminantes.Location = new System.Drawing.Point(0, 0);
+            this.BtnDesignarDictaminantes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnDesignarDictaminantes.Name = "BtnDesignarDictaminantes";
+            this.BtnDesignarDictaminantes.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.BtnDesignarDictaminantes.Size = new System.Drawing.Size(230, 46);
+            this.BtnDesignarDictaminantes.TabIndex = 5;
+            this.BtnDesignarDictaminantes.Text = "DICTAMINANTES";
+            this.BtnDesignarDictaminantes.UseVisualStyleBackColor = false;
+            this.BtnDesignarDictaminantes.Click += new System.EventHandler(this.BtnDesignarDictaminantes_Click);
+            // 
+            // BtnDictamen
+            // 
+            this.BtnDictamen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.BtnDictamen.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnDictamen.FlatAppearance.BorderSize = 0;
+            this.BtnDictamen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnDictamen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDictamen.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnDictamen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnDictamen.Location = new System.Drawing.Point(0, 831);
+            this.BtnDictamen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnDictamen.Name = "BtnDictamen";
+            this.BtnDictamen.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.BtnDictamen.Size = new System.Drawing.Size(230, 46);
+            this.BtnDictamen.TabIndex = 7;
+            this.BtnDictamen.Text = "DICTAMEN";
+            this.BtnDictamen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnDictamen.UseVisualStyleBackColor = false;
+            this.BtnDictamen.Click += new System.EventHandler(this.BtnDictamen_Click);
             // 
             // PnlSubprocesos
             // 
+            this.PnlSubprocesos.Controls.Add(this.BtnInformeEvaluacion);
+            this.PnlSubprocesos.Controls.Add(this.BtnEvaluacionTesis);
             this.PnlSubprocesos.Controls.Add(this.BtnGenerarExpediente);
             this.PnlSubprocesos.Controls.Add(this.BtnAsignarEvaluadores);
             this.PnlSubprocesos.Controls.Add(this.BtnInscribirPlanDeTesis);
@@ -108,8 +208,27 @@ namespace LibFormularios
             this.PnlSubprocesos.Location = new System.Drawing.Point(0, 551);
             this.PnlSubprocesos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PnlSubprocesos.Name = "PnlSubprocesos";
-            this.PnlSubprocesos.Size = new System.Drawing.Size(251, 151);
+            this.PnlSubprocesos.Size = new System.Drawing.Size(230, 280);
             this.PnlSubprocesos.TabIndex = 5;
+            // 
+            // BtnEvaluacionTesis
+            // 
+            this.BtnEvaluacionTesis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.BtnEvaluacionTesis.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnEvaluacionTesis.FlatAppearance.BorderSize = 0;
+            this.BtnEvaluacionTesis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEvaluacionTesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEvaluacionTesis.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnEvaluacionTesis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEvaluacionTesis.Location = new System.Drawing.Point(0, 138);
+            this.BtnEvaluacionTesis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnEvaluacionTesis.Name = "BtnEvaluacionTesis";
+            this.BtnEvaluacionTesis.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.BtnEvaluacionTesis.Size = new System.Drawing.Size(230, 61);
+            this.BtnEvaluacionTesis.TabIndex = 8;
+            this.BtnEvaluacionTesis.Text = "EVALUACION DE TESIS";
+            this.BtnEvaluacionTesis.UseVisualStyleBackColor = false;
+            this.BtnEvaluacionTesis.Click += new System.EventHandler(this.BtnEvaluacionTesis_Click);
             // 
             // BtnGenerarExpediente
             // 
@@ -124,7 +243,7 @@ namespace LibFormularios
             this.BtnGenerarExpediente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnGenerarExpediente.Name = "BtnGenerarExpediente";
             this.BtnGenerarExpediente.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.BtnGenerarExpediente.Size = new System.Drawing.Size(251, 46);
+            this.BtnGenerarExpediente.Size = new System.Drawing.Size(230, 46);
             this.BtnGenerarExpediente.TabIndex = 7;
             this.BtnGenerarExpediente.Text = "GENERAR EXPEDIENTE";
             this.BtnGenerarExpediente.UseVisualStyleBackColor = false;
@@ -136,14 +255,14 @@ namespace LibFormularios
             this.BtnAsignarEvaluadores.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnAsignarEvaluadores.FlatAppearance.BorderSize = 0;
             this.BtnAsignarEvaluadores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAsignarEvaluadores.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAsignarEvaluadores.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAsignarEvaluadores.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.BtnAsignarEvaluadores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnAsignarEvaluadores.Location = new System.Drawing.Point(0, 46);
             this.BtnAsignarEvaluadores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnAsignarEvaluadores.Name = "BtnAsignarEvaluadores";
             this.BtnAsignarEvaluadores.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.BtnAsignarEvaluadores.Size = new System.Drawing.Size(251, 46);
+            this.BtnAsignarEvaluadores.Size = new System.Drawing.Size(230, 46);
             this.BtnAsignarEvaluadores.TabIndex = 6;
             this.BtnAsignarEvaluadores.Text = "EVALUADORES";
             this.BtnAsignarEvaluadores.UseVisualStyleBackColor = false;
@@ -155,14 +274,14 @@ namespace LibFormularios
             this.BtnInscribirPlanDeTesis.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnInscribirPlanDeTesis.FlatAppearance.BorderSize = 0;
             this.BtnInscribirPlanDeTesis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnInscribirPlanDeTesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnInscribirPlanDeTesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnInscribirPlanDeTesis.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.BtnInscribirPlanDeTesis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnInscribirPlanDeTesis.Location = new System.Drawing.Point(0, 0);
             this.BtnInscribirPlanDeTesis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnInscribirPlanDeTesis.Name = "BtnInscribirPlanDeTesis";
             this.BtnInscribirPlanDeTesis.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.BtnInscribirPlanDeTesis.Size = new System.Drawing.Size(251, 46);
+            this.BtnInscribirPlanDeTesis.Size = new System.Drawing.Size(230, 46);
             this.BtnInscribirPlanDeTesis.TabIndex = 5;
             this.BtnInscribirPlanDeTesis.Text = "INSCRIBIR TESIS";
             this.BtnInscribirPlanDeTesis.UseVisualStyleBackColor = false;
@@ -181,7 +300,7 @@ namespace LibFormularios
             this.BtnInscripcion.Location = new System.Drawing.Point(0, 505);
             this.BtnInscripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnInscripcion.Name = "BtnInscripcion";
-            this.BtnInscripcion.Size = new System.Drawing.Size(251, 46);
+            this.BtnInscripcion.Size = new System.Drawing.Size(230, 46);
             this.BtnInscripcion.TabIndex = 4;
             this.BtnInscripcion.Text = "INSCRIPCIÓN";
             this.BtnInscripcion.UseVisualStyleBackColor = false;
@@ -198,7 +317,7 @@ namespace LibFormularios
             this.PnlSubMantenimiento.Location = new System.Drawing.Point(0, 256);
             this.PnlSubMantenimiento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PnlSubMantenimiento.Name = "PnlSubMantenimiento";
-            this.PnlSubMantenimiento.Size = new System.Drawing.Size(251, 249);
+            this.PnlSubMantenimiento.Size = new System.Drawing.Size(230, 249);
             this.PnlSubMantenimiento.TabIndex = 2;
             // 
             // BtnRequisitosPorTramite
@@ -215,7 +334,7 @@ namespace LibFormularios
             this.BtnRequisitosPorTramite.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnRequisitosPorTramite.Name = "BtnRequisitosPorTramite";
             this.BtnRequisitosPorTramite.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.BtnRequisitosPorTramite.Size = new System.Drawing.Size(251, 46);
+            this.BtnRequisitosPorTramite.Size = new System.Drawing.Size(230, 46);
             this.BtnRequisitosPorTramite.TabIndex = 4;
             this.BtnRequisitosPorTramite.Text = "    REQUISITOS POR TRAMITE";
             this.BtnRequisitosPorTramite.UseVisualStyleBackColor = false;
@@ -235,11 +354,31 @@ namespace LibFormularios
             this.BtnRequisitos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnRequisitos.Name = "BtnRequisitos";
             this.BtnRequisitos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.BtnRequisitos.Size = new System.Drawing.Size(251, 46);
+            this.BtnRequisitos.Size = new System.Drawing.Size(230, 46);
             this.BtnRequisitos.TabIndex = 3;
             this.BtnRequisitos.Text = "    REQUISITOS";
             this.BtnRequisitos.UseVisualStyleBackColor = false;
             this.BtnRequisitos.Click += new System.EventHandler(this.BtnRequisitos_Click);
+            // 
+            // BtnTesis
+            // 
+            this.BtnTesis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.BtnTesis.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnTesis.FlatAppearance.BorderSize = 0;
+            this.BtnTesis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnTesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTesis.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnTesis.Image = ((System.Drawing.Image)(resources.GetObject("BtnTesis.Image")));
+            this.BtnTesis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnTesis.Location = new System.Drawing.Point(0, 92);
+            this.BtnTesis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnTesis.Name = "BtnTesis";
+            this.BtnTesis.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.BtnTesis.Size = new System.Drawing.Size(230, 46);
+            this.BtnTesis.TabIndex = 2;
+            this.BtnTesis.Text = "TESIS";
+            this.BtnTesis.UseVisualStyleBackColor = false;
+            this.BtnTesis.Click += new System.EventHandler(this.BtnTesis_Click);
             // 
             // BtnTesistas
             // 
@@ -255,7 +394,7 @@ namespace LibFormularios
             this.BtnTesistas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnTesistas.Name = "BtnTesistas";
             this.BtnTesistas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.BtnTesistas.Size = new System.Drawing.Size(251, 46);
+            this.BtnTesistas.Size = new System.Drawing.Size(230, 46);
             this.BtnTesistas.TabIndex = 1;
             this.BtnTesistas.Text = "TESISTA";
             this.BtnTesistas.UseVisualStyleBackColor = false;
@@ -275,7 +414,7 @@ namespace LibFormularios
             this.BtnDocentes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnDocentes.Name = "BtnDocentes";
             this.BtnDocentes.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.BtnDocentes.Size = new System.Drawing.Size(251, 46);
+            this.BtnDocentes.Size = new System.Drawing.Size(230, 46);
             this.BtnDocentes.TabIndex = 0;
             this.BtnDocentes.Text = "    DOCENTES";
             this.BtnDocentes.UseVisualStyleBackColor = false;
@@ -294,7 +433,7 @@ namespace LibFormularios
             this.BtnMantenimiento.Location = new System.Drawing.Point(0, 210);
             this.BtnMantenimiento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnMantenimiento.Name = "BtnMantenimiento";
-            this.BtnMantenimiento.Size = new System.Drawing.Size(251, 46);
+            this.BtnMantenimiento.Size = new System.Drawing.Size(230, 46);
             this.BtnMantenimiento.TabIndex = 1;
             this.BtnMantenimiento.Text = "      MANTENIMIENTO";
             this.BtnMantenimiento.UseVisualStyleBackColor = false;
@@ -307,7 +446,7 @@ namespace LibFormularios
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(251, 210);
+            this.panel2.Size = new System.Drawing.Size(230, 210);
             this.panel2.TabIndex = 0;
             // 
             // PtbLogo
@@ -316,7 +455,7 @@ namespace LibFormularios
             this.PtbLogo.Image = ((System.Drawing.Image)(resources.GetObject("PtbLogo.Image")));
             this.PtbLogo.Location = new System.Drawing.Point(0, 0);
             this.PtbLogo.Name = "PtbLogo";
-            this.PtbLogo.Size = new System.Drawing.Size(251, 210);
+            this.PtbLogo.Size = new System.Drawing.Size(230, 210);
             this.PtbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PtbLogo.TabIndex = 0;
             this.PtbLogo.TabStop = false;
@@ -396,25 +535,24 @@ namespace LibFormularios
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // BtnTesis
+            // BtnInformeEvaluacion
             // 
-            this.BtnTesis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.BtnTesis.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnTesis.FlatAppearance.BorderSize = 0;
-            this.BtnTesis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnTesis.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnTesis.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnTesis.Image = ((System.Drawing.Image)(resources.GetObject("BtnTesis.Image")));
-            this.BtnTesis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnTesis.Location = new System.Drawing.Point(0, 92);
-            this.BtnTesis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BtnTesis.Name = "BtnTesis";
-            this.BtnTesis.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.BtnTesis.Size = new System.Drawing.Size(251, 46);
-            this.BtnTesis.TabIndex = 2;
-            this.BtnTesis.Text = "TESIS";
-            this.BtnTesis.UseVisualStyleBackColor = false;
-            this.BtnTesis.Click += new System.EventHandler(this.BtnTesis_Click);
+            this.BtnInformeEvaluacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.BtnInformeEvaluacion.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnInformeEvaluacion.FlatAppearance.BorderSize = 0;
+            this.BtnInformeEvaluacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnInformeEvaluacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnInformeEvaluacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnInformeEvaluacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnInformeEvaluacion.Location = new System.Drawing.Point(0, 199);
+            this.BtnInformeEvaluacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnInformeEvaluacion.Name = "BtnInformeEvaluacion";
+            this.BtnInformeEvaluacion.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.BtnInformeEvaluacion.Size = new System.Drawing.Size(230, 61);
+            this.BtnInformeEvaluacion.TabIndex = 9;
+            this.BtnInformeEvaluacion.Text = "INFORME";
+            this.BtnInformeEvaluacion.UseVisualStyleBackColor = false;
+            this.BtnInformeEvaluacion.Click += new System.EventHandler(this.BtnInformeEvaluacion_Click);
             // 
             // FrmPrincipal
             // 
@@ -430,6 +568,7 @@ namespace LibFormularios
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMantenimiento";
             this.panel1.ResumeLayout(false);
+            this.PnlSubDictamen.ResumeLayout(false);
             this.PnlSubprocesos.ResumeLayout(false);
             this.PnlSubMantenimiento.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -464,9 +603,16 @@ namespace LibFormularios
         private System.Windows.Forms.Button BtnInscripcion;
         private System.Windows.Forms.Button BtnAsignarEvaluadores;
         private System.Windows.Forms.Button BtnRequisitosPorTramite;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnDictamen;
         private System.Windows.Forms.Button BtnGenerarExpediente;
         private System.Windows.Forms.PictureBox PtbLogo;
         private System.Windows.Forms.Button BtnTesis;
+        private System.Windows.Forms.Button BtnEvaluacionTesis;
+        private System.Windows.Forms.Panel PnlSubDictamen;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnEvaluacion;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BtnDesignarDictaminantes;
+        private System.Windows.Forms.Button BtnInformeEvaluacion;
     }
 }

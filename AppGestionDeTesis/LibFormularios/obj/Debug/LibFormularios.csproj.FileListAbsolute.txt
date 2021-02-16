@@ -3,136 +3,96 @@ C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormu
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarDocente.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesis.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesista.resources
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmGenerarExpediente.resources
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarComisionRevisora.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmRequisitos.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmResolucion.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
+C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
 C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmMantenimiento.resources
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
-C:\Users\HP\Desktop\Desarollo firme firme\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmMantenimiento.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmRequisitos.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmRequisitos.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmRequisitos.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmResolucion.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
-C:\Users\ALEX\Desktop\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmRequisitos.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmResolucion.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
-C:\Users\ALEX\Desktop\Quechua\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmResolucion.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarDocente.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesista.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmRequisitos.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmResolucion.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
-C:\Users\HP\Desktop\Desarrollo de SOF\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
-C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
-C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
-C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
-C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarDocente.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesis.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesista.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEvaluacionTesis.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmGenerarExpediente.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarComisionRevisora.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmRequisitos.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmResolucion.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarDocente.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesis.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesista.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEvaluacionTesis.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmGenerarExpediente.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarComisionRevisora.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmRequisitos.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmResolucion.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarDocente.resources
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesis.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesista.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEvaluacionTesis.resources
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmGenerarExpediente.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarComisionRevisora.resources
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarDictaminantescs.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
@@ -143,44 +103,12 @@ C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
-C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
 C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
-C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmGenerarExpediente.resources
-C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarComisionRevisora.resources
-C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesis.resources
-<<<<<<< Updated upstream
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarDocente.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesis.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesista.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmGenerarExpediente.resources
-C:\Users\ALEX\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarComisionRevisora.resources
-=======
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarDocente.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesis.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmBuscarTesista.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocente.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDocumentación.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmEditarRegistrosXTramite.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmGenerarExpediente.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInscripcion.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmNombrarComisionRevisora.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPrincipal.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmPadre.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmProveido.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmRequisitos.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmResolucion.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesis.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmTesista.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.dll
-C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.pdb
->>>>>>> Stashed changes
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.dll
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibFormularios.pdb
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.dll
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\bin\Debug\LibClases.pdb
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmDictamenTesis.resources
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibFormularios\obj\Debug\LibFormularios.FrmInformeComisionRevisora.resources

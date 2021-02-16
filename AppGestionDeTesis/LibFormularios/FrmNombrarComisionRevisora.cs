@@ -16,6 +16,7 @@ namespace LibFormularios
         public TextBox CajadeTexto;
         private CDocente oDocente = new CDocente();
         private CTesis oTesis = new CTesis();
+        private CPlanDeTesis oPlanDeTesis = new CPlanDeTesis();
         public string aBusqueda;
         private CRequisitoXTramite oRequsitosXTramite;
         public FrmNombrarComisionRevisora()
@@ -26,6 +27,8 @@ namespace LibFormularios
             oDocente = new CDocente();
             CboNroDocente.SelectedIndex = 0;
             oTesis = new CTesis();
+            oPlanDeTesis = new CPlanDeTesis();
+            LlenarTesisPendientes();
         }
         public void InicializarCamposCboNroDocente()
         {
@@ -120,19 +123,7 @@ namespace LibFormularios
             ConsultarDocente(TxtNombresDocente2, TxtApellidosDocente2, TxtDNIDocente2, TxtCategoriaDocente2, txtCodDocente2.Text);
         }
 
-        private void TxtCategoriaDocente_TextChanged(object sender, EventArgs e)
-        {
-        }
 
-        private void TxtCategoriaDocente1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtCategoriaDocente2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         //-----------------------------------------------------------
         public override void Grabar()
         { //-- al grabar un nuevo ejemplar, el formulario queda listo para
@@ -166,6 +157,13 @@ namespace LibFormularios
         {
             Grabar();
         }
+        private void BtnGenerar_Click(object sender, EventArgs e)
+        {
+            string codigo = oPlanDeTesis.GenerarCodigoNombrarComisionRevisora();
+
+
+            TxtCodEvaluacionPlanDeTesis.Text = codigo;
+        }
 
         public void ConsultarTesis(TextBox tbox1, string codigotesis)
         {
@@ -183,23 +181,79 @@ namespace LibFormularios
             }
         }
 
-        private void txtCodTesis_TextChanged(object sender, EventArgs e)
-        {
-            ConsultarTesis(txtNombreTesis, txtCodTesis.Text);
-        }
-        private void BtnBusquedaTesis_Click(object sender, EventArgs e)
-        {
-            FrmBuscarTesis A = new FrmBuscarTesis();
-            AddOwnedForm(A);
-            A.Show();
-            A.CajadeTexto = txtCodTesis;
-            ConsultarTesis(txtNombreTesis, txtCodTesis.Text);
-        }
-
-        private void txtNombreTesis_TextChanged(object sender, EventArgs e)
+        private void BtnCargar_Click(object sender, EventArgs e)
         {
 
+            try
+            {
+                //int filat= DgvTramitesDeInscripcion.CurrentRow.Index;
+                TxtCodTesis.Text = DgvTesisSinEvaluadores.CurrentRow.Cells["CodTesis"].Value.ToString();
+                TxtNroExpediente.Text = DgvTesisSinEvaluadores.CurrentRow.Cells["NroExpediente"].Value.ToString();
+                //DgvDocentes.DataSource= oPlanDeTesis.ListarTesistasXTesis();
+                //DgvInteresados.DataSource = oPlanDeTesis.ListarInteresados(TxtCodTesis.Text);
+            }
+            catch
+            {
+                MessageBox.Show("NO HA SELECCIONADO", "ERROR");
+            }
+
         }
+        public void LlenarTesisPendientes()
+        {
+            DgvTesisSinEvaluadores.DataSource = oPlanDeTesis.TesisPendientesDeDCR();
+            DgvTesisSinEvaluadores.Columns["CodTesis"].Visible = false;
+            DgvTesisSinEvaluadores.Columns["CodEvaluacionPlanDeTesis"].Visible = false;
+            /*
+            DgvTesisPendientesDeCR.Columns["CodDictamenDeTesis"].Visible = false;
+            DgvTesisPendientesDeCR.Columns["CodSustentacionOral"].Visible = false;
+            */
+        }
+        private void BtnEnviarProveido_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!((TxtCodEvaluacionPlanDeTesis.Text == "") || (txtCodDocente.Text == "") || (txtCodDocente1.Text == "") || (txtCodDocente2.Text == "")))
+                {
+                    //AGREGAR EXPEDIENTE
+                    oPlanDeTesis.UpdateExpediente(TxtNroExpediente.Text, TxtCodEvaluacionPlanDeTesis.Text);
+
+                    //Agregamos Docentes a la Comision Revisora
+                    List<string> ComisionRevisora = new List<string>();
+                    ComisionRevisora.Add(txtCodDocente.Text);
+                    ComisionRevisora.Add(txtCodDocente1.Text);
+                    ComisionRevisora.Add(txtCodDocente2.Text);
+                    oPlanDeTesis.AgregarDocentesCR(ComisionRevisora, TxtCodEvaluacionPlanDeTesis.Text);
+                    MessageBox.Show("Operación se completó EXITOSAMENTE", "CONFIRMACION");
+                    LlenarTesisPendientes();
+                }
+                else
+                {
+                    MessageBox.Show("Generar código para la evaluación de plan de tesis", "RECUERDA");
+                }
+
+            }
+            catch
+            {
+                MessageBox.Show("El código de la revisión de plan de tesis SE REPITE", "ERROR");
+            }
+        }
+
+
+        /*
+private void txtCodTesis_TextChanged(object sender, EventArgs e)
+{
+ConsultarTesis(txtNombreTesis, txtCodTesis.Text);
+}
+private void BtnBusquedaTesis_Click(object sender, EventArgs e)
+{
+FrmBuscarTesis A = new FrmBuscarTesis();
+AddOwnedForm(A);
+A.Show();
+A.CajadeTexto = txtCodTesis;
+ConsultarTesis(txtNombreTesis, txtCodTesis.Text);
+}
+*/
+
     }
 
 

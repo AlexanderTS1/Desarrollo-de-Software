@@ -119,8 +119,8 @@ namespace LibFormularios
             this.BtnSeleccionar.FlatAppearance.BorderSize = 0;
             this.BtnSeleccionar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(62)))), ((int)(((byte)(95)))));
             this.BtnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnSeleccionar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSeleccionar.ForeColor = System.Drawing.Color.Olive;
+            this.BtnSeleccionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnSeleccionar.ForeColor = System.Drawing.Color.White;
             this.BtnSeleccionar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnSeleccionar.Location = new System.Drawing.Point(925, 21);
             this.BtnSeleccionar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

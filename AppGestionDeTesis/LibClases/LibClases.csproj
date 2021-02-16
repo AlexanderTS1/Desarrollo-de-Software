@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CConexion.cs" />
+    <Compile Include="CDictaminanteDeTesis.cs" />
     <Compile Include="CDocente.cs" />
     <Compile Include="CDocumentacion.cs" />
     <Compile Include="CEntidad.cs" />

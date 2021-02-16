@@ -39,3 +39,16 @@ C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTe
 C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.dll
 C:\Users\HP\Desktop\Desarrollo De SOFTWARE\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.pdb
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.dll
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.pdb
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.dll
+C:\Users\HP\Desktop\DS-18\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.pdb
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.dll
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibClases\bin\Debug\LibClases.pdb
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.dll
+C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.pdb
+C:\Users\ALEX\Music\Desarrollo-de-Software\AppGestionDeTesis\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache

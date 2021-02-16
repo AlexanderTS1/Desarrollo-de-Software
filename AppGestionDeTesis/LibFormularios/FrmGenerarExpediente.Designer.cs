@@ -56,6 +56,7 @@ namespace LibFormularios
             this.panel1.Controls.Add(this.BtnGenerarExpediente);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Size = new System.Drawing.Size(1007, 712);
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // LblTitulo
             // 
@@ -82,7 +83,7 @@ namespace LibFormularios
             this.BtnGenerarExpediente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(62)))), ((int)(((byte)(95)))));
             this.BtnGenerarExpediente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnGenerarExpediente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnGenerarExpediente.ForeColor = System.Drawing.Color.Olive;
+            this.BtnGenerarExpediente.ForeColor = System.Drawing.Color.White;
             this.BtnGenerarExpediente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnGenerarExpediente.Location = new System.Drawing.Point(781, 569);
             this.BtnGenerarExpediente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -135,7 +136,7 @@ namespace LibFormularios
             this.BtnGenerar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(62)))), ((int)(((byte)(95)))));
             this.BtnGenerar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnGenerar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnGenerar.ForeColor = System.Drawing.Color.Olive;
+            this.BtnGenerar.ForeColor = System.Drawing.Color.White;
             this.BtnGenerar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnGenerar.Location = new System.Drawing.Point(222, 69);
             this.BtnGenerar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -193,7 +194,9 @@ namespace LibFormularios
             this.DgvSolitudesInscripcion.AllowUserToAddRows = false;
             this.DgvSolitudesInscripcion.AllowUserToDeleteRows = false;
             this.DgvSolitudesInscripcion.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DgvSolitudesInscripcion.BackgroundColor = System.Drawing.SystemColors.Control;
             this.DgvSolitudesInscripcion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvSolitudesInscripcion.GridColor = System.Drawing.SystemColors.ActiveBorder;
             this.DgvSolitudesInscripcion.Location = new System.Drawing.Point(19, 20);
             this.DgvSolitudesInscripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DgvSolitudesInscripcion.Name = "DgvSolitudesInscripcion";
@@ -210,7 +213,7 @@ namespace LibFormularios
             this.BtnCargar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(62)))), ((int)(((byte)(95)))));
             this.BtnCargar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnCargar.ForeColor = System.Drawing.Color.Olive;
+            this.BtnCargar.ForeColor = System.Drawing.Color.White;
             this.BtnCargar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnCargar.Location = new System.Drawing.Point(19, 218);
             this.BtnCargar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

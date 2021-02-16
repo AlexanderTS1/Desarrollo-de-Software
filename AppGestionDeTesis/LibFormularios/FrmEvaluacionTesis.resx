@@ -117,8 +117,80 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label44.Text" xml:space="preserve">
+    <value>*     Una calificación promedio total mayor o igual a 3,5 (70%) es equivalente a APROBADO y se
+       hace efectiva a partir del momento en que los estudiantes entreguen el plan con las correcciones
+        planteadas por los evaluadores.</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>2. Hipótesis. La solución planteada/bosquejada del problema de ingeniería
+diagnosticado o la satisfacción de la necesidad identificada es clara y apropiada
+para el nivel de un trabajo de grado de pregrado (profundizar conocimiento en
+un área temática o problema de interés, realizando un plan de solución y
+justificando decisiones de ingeniería en el proceso), y se vislumbra que puede
+tener éxito.</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>4. Metodología. Propone una metodología apropiada considerando los objetivos
+propuestos. Justifica la idoneidad de la metodología y el plan de trabajo
+propuestos relacionándolos con las opciones disponibles a partir de la revisión
+bibliográfica.</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>5. Revisión Bibliográfica (Marco Teórico, Antecedentes, Estado del Arte). La
+revisión bibliográfica, el acopio y análisis de información, son adecuados para
+plantear soluciones al problema/necesidad seleccionado. Cubre de manera
+organizada, estructurada y suficiente las fuentes relevantes, evaluándolas de
+forma crítica, identificando brechas en la información y relacionándolas con el
+problema seleccionado y especialmente con la alternativa de solución propuesta.</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>6. Recursos y Presupuesto. Identifica detalladamente los recursos necesarios y
+asegura su disponibilidad. Organiza efectivamente los recursos estimados como
+necesarios para cumplir con los objetivos del trabajo de grado.</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>7. Impacto. Contribución o eventual efecto del trabajo en la capacidad académica
+o tecnológica del grupo de investigación, una empresa o entidad, la Escuela o la
+Universidad. Efecto de eventual utilización o generalización de los resultados en
+el sector productivo, la región o el País (productividad y competitividad).</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>8. Organización del Documento del Plan. Las secciones del plan están bien
+estructuradas y han sido enlazados adecuadamente; utiliza apropiadamente
+apéndices o anexos para incluir información relevante imprescindible para
+valorar el plan de trabajo de grado.</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>9. Presentación General del Documento del Plan. Redacción clara y concisa.
+Buena ortografía y gramática. Uso adecuado y correcta citación y referenciación
+de tablas y figuras. Estilo coherente a lo largo del documento. Cita
+adecuadamente y reconoce las contribuciones e información de otros trabajos
+utilizada en el documento.</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>10. Presentación de la Sustentación del Plan. Administra adecuadamente el
+tiempo asignado para la presentación. Demuestra entusiasmo y dominio del
+tema durante la presentación. Responde adecuadamente a las preguntas,
+inquietudes y comentarios del jurado.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Lea todos los puntos a considerar en la evaluación antes de la presentación y proceda a
+evaluarlos. Considere cada aspecto en este formato cuidadosamente y sólo asigne los más altos
+puntajes por desempeños inusualmente efectivos. Para evaluar debe asistir a la totalidad de la
+presentación de los estudiantes.
+</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>El propósito de la evaluación del plan de trabajo de grado es verificar que el (la) (los) (las)
+estudiantes(s) hayan realizado un proceso adecuado de planeación para resolver un problema
+de ingeniería aplicando los conocimientos, habilidades y valores adquiridos durante su proceso
+de formación en la Universidad, teniendo en cuenta los plazos y recursos disponibles, además
+de demostrar su capacidad en la toma de decisiones al proponer alternativas de
+solución/satisfacción al problema/necesidad seleccionado.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnBuscarDocente2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BtnBuscarTesista3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/4QCMRXhpZgAATU0AKgAAAAgABgEPAAIAAAAIAAAAVgESAAMAAAAB
         AAEAAAEaAAUAAAABAAAAXgEbAAUAAAABAAAAZgEoAAMAAAABAAIAAAExAAIAAAAVAAAAbgAAAABCZUZ1
@@ -215,7 +287,7 @@
         n+Qfnd8PHjw8ePDx48PHjw8ePDx48PHjw8ePP//Z
 </value>
   </data>
-  <data name="btnBuscarDocente1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BtnBuscarTesista2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/4QCMRXhpZgAATU0AKgAAAAgABgEPAAIAAAAIAAAAVgESAAMAAAAB
         AAEAAAEaAAUAAAABAAAAXgEbAAUAAAABAAAAZgEoAAMAAAABAAIAAAExAAIAAAAVAAAAbgAAAABCZUZ1
@@ -312,7 +384,7 @@
         n+Qfnd8PHjw8ePDx48PHjw8ePDx48PHjw8ePP//Z
 </value>
   </data>
-  <data name="btnBuscarDocente.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BtnBuscarTesista1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/4QCMRXhpZgAATU0AKgAAAAgABgEPAAIAAAAIAAAAVgESAAMAAAAB
         AAEAAAEaAAUAAAABAAAAXgEbAAUAAAABAAAAZgEoAAMAAAABAAIAAAExAAIAAAAVAAAAbgAAAABCZUZ1

@@ -48,7 +48,7 @@ namespace LibFormularios
             // 
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.CodTesista2);
-            this.panel1.Size = new System.Drawing.Size(1262, 744);
+            this.panel1.Size = new System.Drawing.Size(1262, 583);
             // 
             // LblTitulo
             // 
@@ -57,7 +57,7 @@ namespace LibFormularios
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(0, 686);
+            this.panel4.Location = new System.Drawing.Point(0, 525);
             this.panel4.Size = new System.Drawing.Size(1262, 58);
             // 
             // BtnGuardar
@@ -120,7 +120,7 @@ namespace LibFormularios
             this.BtnSeleccionar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(62)))), ((int)(((byte)(95)))));
             this.BtnSeleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSeleccionar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSeleccionar.ForeColor = System.Drawing.Color.Olive;
+            this.BtnSeleccionar.ForeColor = System.Drawing.Color.White;
             this.BtnSeleccionar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnSeleccionar.Location = new System.Drawing.Point(925, 21);
             this.BtnSeleccionar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -168,11 +168,13 @@ namespace LibFormularios
             // 
             // dgvDocentes
             // 
+            this.dgvDocentes.AllowUserToDeleteRows = false;
             this.dgvDocentes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDocentes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDocentes.Location = new System.Drawing.Point(11, 28);
             this.dgvDocentes.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDocentes.Name = "dgvDocentes";
+            this.dgvDocentes.ReadOnly = true;
             this.dgvDocentes.RowHeadersWidth = 51;
             this.dgvDocentes.Size = new System.Drawing.Size(1133, 253);
             this.dgvDocentes.TabIndex = 0;
@@ -181,7 +183,7 @@ namespace LibFormularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 744);
+            this.ClientSize = new System.Drawing.Size(1262, 583);
             this.Name = "FrmBuscarDocente";
             this.Text = "FrmBuscarDocente";
             this.panel1.ResumeLayout(false);

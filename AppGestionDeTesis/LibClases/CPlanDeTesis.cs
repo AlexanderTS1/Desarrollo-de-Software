@@ -30,23 +30,10 @@ namespace LibClases
             {
                 return "200000";
             }
-            /*try
-            {
-                string Codigo;
-                string Consulta = "select top 1 CodSolitudInscripcionTesis from TSolicitudInscripcion order by CodSolitudInscripcionTesis desc";
-                aConexion.EjecutarSelect(Consulta);
-                Codigo = aConexion.Datos.Tables[0].Rows[0]["CodSolitudInscripcionTesis"].ToString();
-                int ValorCodigo = int.Parse(Codigo) + 1;
-                return ValorCodigo.ToString();
-            }
-            catch
-            {
-                return "100000";
-            }*/
         }
-        public void GenerarExpediente(List<string> ListaDocumentaciones)
+        public void GenerarExpediente(List<string> listaEspediente)
         {
-            string Consulta = "insert into TDocumentacion values('" + ListaDocumentaciones[0] + "','" + ListaDocumentaciones + "','','','','')";
+            string Consulta = "insert into TDocumentacion values('" + listaEspediente[0] + "','" + listaEspediente[1] + "','','','','')";
             aConexion.EjecutarComando(Consulta);
             /*string Consulta = "insert into TDocumentacion values('" + listaTesistas[0] + "','" + listaTesistas[1] + "','','','','')";
             aConexion.EjecutarComando(Consulta);*/
@@ -54,7 +41,7 @@ namespace LibClases
         }
         public void ActualizarEstadoDelTramite(string pCodTramITTesis, string pCodTesis)
         {
-            string update = "update TSolicitudInscripcion set Estado='Pre inscripcion aceptada' where CodTramITTesis='" + pCodTramITTesis + "' and CodTesis='" + pCodTesis + "'";
+            string update = "update TSolicitudInscripcion set Estado='Pre inscripcion aceptada' where CodSolitudInscripcionTesis='" + pCodTramITTesis + "' and CodTesis='" + pCodTesis + "'";
             aConexion.EjecutarComando(update);
         }
         public DataTable ListarTesistasPorTesis()
@@ -65,7 +52,7 @@ namespace LibClases
         }
         public DataTable TesisPendientesDeDCR()
         {
-            string consulta = "select a.NroExpediente,a.CodEvaluacionPlanDeTesis,a.CodTesis,b.Titulo,b.Especilidad,b.Estado  from TDocumentacion a inner join TTesis b on a.CodTesis=b.CodTesis where CodEvaluacionPlanDeTesis=''";
+            string consulta = "select a.NroExpediente,a.CodEvaluacionPlanDeTesis,a.CodTesis,b.Titulo,b.Especialidad,b.Estado  from TDocumentacion a inner join TTesis b on a.CodTesis=b.CodTesis where CodEvaluacionPlanDeTesis=''";
             aConexion.EjecutarSelect(consulta);
             return aConexion.Datos.Tables[0];
             /*
@@ -98,7 +85,7 @@ namespace LibClases
 
             for (int i = 0; i < NombrarCR.Count; i++)
             {
-                consulta = " insert into TComisionRevisora values ('" + pCodEvaluacionPlanDeTesis + "','" + NombrarCR[i] + "')";
+                consulta = " insert into TComisionRevisora values ('" + NombrarCR[i] + "','" + pCodEvaluacionPlanDeTesis + "')";
                 aConexion.EjecutarComando(consulta);
             }
         }
@@ -201,7 +188,7 @@ namespace LibClases
         }
         public string MostrarCodTesis(string pCodEvaluacion)
         {
-            string consulta = "select  * from TDocumentacion a , TComisionRevisora b where a.CodEvaluacionPlanDeTesis = b.CodEvaluacionPlanDeTesis and b.CodEvaluacionPlanDeTesis = '" + pCodEvaluacion + "'";
+            string consulta = "select  * from TDocumentacion a , TComisionRevisora b where a.CodEvaluacionPlanDeTesis = b.CodEvaluacionPlanTesis and b.CodEvaluacionPlanDeTesis = '" + pCodEvaluacion + "'";
             aConexion.EjecutarSelect(consulta);
 
             return aConexion.Datos.Tables[0].Rows[0]["CodTesis"].ToString();

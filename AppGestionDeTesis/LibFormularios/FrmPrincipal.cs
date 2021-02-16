@@ -21,6 +21,7 @@ namespace LibFormularios
         {
             PnlSubMantenimiento.Visible = false;
             PnlSubprocesos.Visible = false;
+            PnlSubDictamen.Visible = false;
         }
         private void showSubMenu(Panel subMenu)
         {
@@ -157,6 +158,47 @@ namespace LibFormularios
         private void BtnGenerarExpediente_Click(object sender, EventArgs e)
         {
             abrirFormHijoEnPanel(new FrmGenerarExpediente());
+            // ..
+            //your codes
+            //..
+            hideSubMenu();
+        }
+
+        private void BtnEvaluacionTesis_Click(object sender, EventArgs e)
+        {
+            abrirFormHijoEnPanel(new FrmEvaluacionTesis());
+            // ..
+            //your codes
+            //..
+            hideSubMenu();
+        }
+
+        private void BtnDictamen_Click(object sender, EventArgs e)
+        {
+            showSubMenu(PnlSubDictamen);
+        }
+
+        private void BtnDesignarDictaminantes_Click(object sender, EventArgs e)
+        {
+            abrirFormHijoEnPanel(new FrmNombrarDictaminantescs());
+            // ..
+            //your codes
+            //..
+            hideSubMenu();
+        }
+
+        private void BtnInformeEvaluacion_Click(object sender, EventArgs e)
+        {
+            abrirFormHijoEnPanel(new FrmInformeComisionRevisora());
+            // ..
+            //your codes
+            //..
+            hideSubMenu();
+        }
+
+        private void BtnEvaluacion_Click(object sender, EventArgs e)
+        {
+            abrirFormHijoEnPanel(new FrmDictamenTesis());
             // ..
             //your codes
             //..
