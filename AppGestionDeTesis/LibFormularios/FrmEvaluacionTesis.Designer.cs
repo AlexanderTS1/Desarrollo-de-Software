@@ -1158,7 +1158,7 @@ namespace LibFormularios
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 132F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 138F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 211F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tableLayoutPanel2.Controls.Add(this.label30, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label29, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label28, 0, 0);
@@ -1176,7 +1176,7 @@ namespace LibFormularios
             // label30
             // 
             this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label30.Location = new System.Drawing.Point(272, 1);
+            this.label30.Location = new System.Drawing.Point(240, 1);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(127, 50);
             this.label30.TabIndex = 11;
@@ -1186,7 +1186,7 @@ namespace LibFormularios
             // label29
             // 
             this.label29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label29.Location = new System.Drawing.Point(406, 1);
+            this.label29.Location = new System.Drawing.Point(374, 1);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(126, 50);
             this.label29.TabIndex = 10;
@@ -1196,7 +1196,7 @@ namespace LibFormularios
             // label28
             // 
             this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label28.Location = new System.Drawing.Point(539, 1);
+            this.label28.Location = new System.Drawing.Point(507, 1);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(132, 50);
             this.label28.TabIndex = 9;
@@ -1208,7 +1208,7 @@ namespace LibFormularios
             this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label27.Location = new System.Drawing.Point(4, 1);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(61, 50);
+            this.label27.Size = new System.Drawing.Size(46, 50);
             this.label27.TabIndex = 8;
             this.label27.Text = "5";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1216,9 +1216,9 @@ namespace LibFormularios
             // label26
             // 
             this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label26.Location = new System.Drawing.Point(72, 1);
+            this.label26.Location = new System.Drawing.Point(57, 1);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(67, 50);
+            this.label26.Size = new System.Drawing.Size(50, 50);
             this.label26.TabIndex = 7;
             this.label26.Text = "4";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1226,7 +1226,7 @@ namespace LibFormularios
             // label24
             // 
             this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label24.Location = new System.Drawing.Point(146, 1);
+            this.label24.Location = new System.Drawing.Point(114, 1);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(119, 50);
             this.label24.TabIndex = 2;
@@ -1236,9 +1236,9 @@ namespace LibFormularios
             // label25
             // 
             this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label25.Location = new System.Drawing.Point(678, 1);
+            this.label25.Location = new System.Drawing.Point(646, 1);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(206, 50);
+            this.label25.Size = new System.Drawing.Size(238, 50);
             this.label25.TabIndex = 6;
             this.label25.Text = "NA";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

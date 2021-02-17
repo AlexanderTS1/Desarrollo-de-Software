@@ -21,7 +21,8 @@ namespace LibClases
             aDatos = new DataSet();
             aAdaptador = new SqlDataAdapter();
             // realizar la conexion
-            string CadenaConexion = "Data Source=localhost;Initial Catalog = DBGestionTesis; Integrated Security = SSPI; ";
+            string CadenaConexion = "Data Source=DESKTOP-KH0TFQS\\SQLEXPRESS;Initial Catalog = DBGestionTesis; Integrated Security = SSPI; ";
+            //string CadenaConexion = "Data Source=localhost;Initial Catalog = DBGestionTesis; Integrated Security = SSPI; ";
             //string CadenaConexion = "Data Source=LAPTOP-T0A9SMMC;Initial Catalog = DBGestionTesis; Integrated Security = SSPI; ";
             //string CadenaConexion = "Data Source=sql5102.site4now.net;Initial Catalog=DB_A6F90B_jhonTACUSI;User Id=DB_A6F90B_jhonTACUSI_admin;Password=cocodrilo10";
             aConexion = new SqlConnection(CadenaConexion);

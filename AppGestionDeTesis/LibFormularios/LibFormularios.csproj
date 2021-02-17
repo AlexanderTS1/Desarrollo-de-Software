@@ -109,6 +109,12 @@
     <Compile Include="FrmInformeComisionRevisora.Designer.cs">
       <DependentUpon>FrmInformeComisionRevisora.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmInformeDictaminantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInformeDictaminantes.Designer.cs">
+      <DependentUpon>FrmInformeDictaminantes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInscripcion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInformeComisionRevisora.resx">
       <DependentUpon>FrmInformeComisionRevisora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInformeDictaminantes.resx">
+      <DependentUpon>FrmInformeDictaminantes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInscripcion.resx">
       <DependentUpon>FrmInscripcion.cs</DependentUpon>

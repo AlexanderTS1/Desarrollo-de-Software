@@ -161,12 +161,12 @@ namespace LibFormularios
                     ComisionRevisora.Add(txtCodDocente1.Text);
                     ComisionRevisora.Add(txtCodDocente2.Text);
                     oDictaminanteDeTesis.AgregarDocentesDictaminantes(ComisionRevisora, TxtCodDictaminantesDeTesis.Text);
-                    MessageBox.Show("OPERACION REALIZADA EXITOSAMENTE", "CONFIRMACION");
+                    MessageBox.Show("Operación coompletada EXITOSAMENTE", "CONFIRMACION");
                     LlenarTesisPendientes();
                 }
                 else
                 {
-                    MessageBox.Show("GENERE CODIGO PARA LA EVALUACION DE PLAN DE TESIS", "ALERTA");
+                    MessageBox.Show("Generar código para Dictaminates de la tesis", "ALERTA");
                 }
 
             }

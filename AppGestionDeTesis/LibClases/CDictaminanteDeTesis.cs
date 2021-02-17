@@ -84,7 +84,7 @@ namespace LibClases
         }
         public DataTable ListarCodGrupoDictaminantes()
         {
-            string consulta = "select * from TExpediente where CodEvaluacionPlanDeTesis!='' and CodDictamenDeTesis!=''";
+            string consulta = "select * from TDocumentacion where CodDictamenDeTesis!=''";
             aConexion.EjecutarSelect(consulta);
             return aConexion.Datos.Tables[0];
         }
@@ -95,9 +95,9 @@ namespace LibClases
 
             return aConexion.Datos.Tables[0].Rows[0]["CodTesis"].ToString();
         }
-        public DataTable ListarDocentesDictaminantes(string pCodComisionRevisora)
+        public DataTable ListarDocentesDictaminantes(string pCodDictaminantes)
         {
-            string consulta = "select * from TDictaminantesDeTesis where CodDictamenDeTesis = '" + pCodComisionRevisora + "'";
+            string consulta = "select * from TDictaminantesDeTesis where CodDictamenDeTesis = '" + pCodDictaminantes + "'";
             aConexion.EjecutarSelect(consulta);
             return aConexion.Datos.Tables[0];
         }
