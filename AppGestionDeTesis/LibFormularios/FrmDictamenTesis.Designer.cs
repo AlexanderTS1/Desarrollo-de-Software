@@ -53,8 +53,9 @@ namespace LibFormularios
             this.label9 = new System.Windows.Forms.Label();
             this.TxtCodTesis = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.CboCodDictaminantes = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.TxtCodDictaminantes = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnBusquedaTesis)).BeginInit();
@@ -62,10 +63,13 @@ namespace LibFormularios
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvInteresados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnBusquedaDocente)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.TxtCodDictaminantes);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Location = new System.Drawing.Point(0, 55);
@@ -341,15 +345,6 @@ namespace LibFormularios
             this.label14.TabIndex = 270;
             this.label14.Text = "Codigo de la Tesis:";
             // 
-            // CboCodDictaminantes
-            // 
-            this.CboCodDictaminantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CboCodDictaminantes.FormattingEnabled = true;
-            this.CboCodDictaminantes.Location = new System.Drawing.Point(341, 75);
-            this.CboCodDictaminantes.Name = "CboCodDictaminantes";
-            this.CboCodDictaminantes.Size = new System.Drawing.Size(174, 30);
-            this.CboCodDictaminantes.TabIndex = 269;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -359,6 +354,25 @@ namespace LibFormularios
             this.label8.Size = new System.Drawing.Size(239, 25);
             this.label8.TabIndex = 268;
             this.label8.Text = "Codigo De Dictaminantes:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(532, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 289;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // TxtCodDictaminantes
+            // 
+            this.TxtCodDictaminantes.Location = new System.Drawing.Point(321, 22);
+            this.TxtCodDictaminantes.Name = "TxtCodDictaminantes";
+            this.TxtCodDictaminantes.Size = new System.Drawing.Size(100, 22);
+            this.TxtCodDictaminantes.TabIndex = 290;
             // 
             // FrmDictamenTesis
             // 
@@ -381,13 +395,11 @@ namespace LibFormularios
             this.Controls.Add(this.label9);
             this.Controls.Add(this.TxtCodTesis);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.CboCodDictaminantes);
             this.Controls.Add(this.label8);
             this.Name = "FrmDictamenTesis";
             this.Text = "FrmDictamenTesis";
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.label8, 0);
-            this.Controls.SetChildIndex(this.CboCodDictaminantes, 0);
             this.Controls.SetChildIndex(this.label14, 0);
             this.Controls.SetChildIndex(this.TxtCodTesis, 0);
             this.Controls.SetChildIndex(this.label9, 0);
@@ -415,6 +427,7 @@ namespace LibFormularios
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvInteresados)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnBusquedaDocente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -444,8 +457,9 @@ namespace LibFormularios
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox TxtCodTesis;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox CboCodDictaminantes;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridView DgvInteresados;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox TxtCodDictaminantes;
     }
 }

@@ -102,7 +102,7 @@ create table TDictaminantesDeTesis
 CodDictamenDeTesis varchar(6),
 CodDocente varchar(6),
 -- especificacion de claves
-primary key (CodDictamenDeTesis),
+--primary key (CodDictamenDeTesis),
 foreign key (CodDocente) references TDocente
 )
 
@@ -435,3 +435,14 @@ select a.NroExpediente,a.CodEvaluacionPlanDeTesis,a.CodTesis,b.Titulo,b.Especial
 from TDocumentacion a inner join TTesis b on a.CodTesis=b.CodTesis where CodEvaluacionPlanDeTesis=''
 select * from TComisionRevisora 
 select * from  TDocumentacion 
+
+select * from TDictaminantesDeTesis
+select * from TDocumentacion
+INSERT INTO TDocumentacion VALUES('10006','500002','','','','REVISION')
+INSERT INTO TDocumentacion VALUES('10007','500003','','','','REVISION')
+INSERT INTO TDocumentacion VALUES('10008','500004','','','','REVISION')
+INSERT INTO TDocumentacion VALUES('10009','500005','','','','REVISION')
+select distinct CodDictamenDeTesis from TDictaminantesDeTesis
+select a.NroExpediente, a.CodEvaluacionPlanDeTesis, a.CodTesis, b.Titulo, b.Especialidad, b.Estado from TDocumentacion a inner join TTesis b on a.CodTesis= b.CodTesis where CodDictamenDeTesis = ''
+
+select a.NroExpediente, a.CodEvaluacionPlanDeTesis, a.CodTesis, b.Titulo, b.Especialidad, b.Estado from TDocumentacion a inner join TTesis b on a.CodTesis= b.CodTesis where CodEvaluacionPlanDeTesis='' and CodDictamenDeTesis = ''";

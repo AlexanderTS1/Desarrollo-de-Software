@@ -140,3 +140,17 @@ C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTes
 C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.CopyComplete
 C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.exe
 C:\Users\ALEX\Downloads\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.pdb
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\AppGestionDeTesis.exe.config
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\AppGestionDeTesis.exe
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\AppGestionDeTesis.pdb
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibClases.dll
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibFormularios.dll
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibClases.pdb
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\bin\Debug\LibFormularios.pdb
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csprojAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.Properties.Resources.resources
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.csproj.CopyComplete
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.exe
+C:\Users\ASUS\Documents\GitHub\Desarrollo-de-Software\AppGestionDeTesis\AppGestionDeTesis\obj\Debug\AppGestionDeTesis.pdb

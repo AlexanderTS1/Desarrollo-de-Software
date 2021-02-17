@@ -111,6 +111,13 @@ namespace LibFormularios
             ConsultarTesis(TxtNombreTesis, TxtCodTesis.Text);
         }
 
-        
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            FrmBuscarDictaminantes A = new FrmBuscarDictaminantes();
+            AddOwnedForm(A);
+            A.Show();
+            A.CajadeTexto = TxtCodDictaminantes;
+            ConsultarTesis(TxtNombreTesis, TxtCodTesis.Text);
+        }
     }
 }

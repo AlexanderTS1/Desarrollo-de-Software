@@ -31,7 +31,7 @@ namespace LibFormularios
                 subMenu.Visible = true;
             }
             else
-                subMenu.Visible = false;
+                subMenu.Visible = true;
         }
         
         

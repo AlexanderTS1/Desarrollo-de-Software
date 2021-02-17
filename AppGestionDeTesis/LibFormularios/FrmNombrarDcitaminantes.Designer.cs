@@ -277,7 +277,6 @@ namespace LibFormularios
             this.TxtCodTesis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.TxtCodTesis.Location = new System.Drawing.Point(670, 189);
             this.TxtCodTesis.Name = "TxtCodTesis";
-            this.TxtCodTesis.ReadOnly = true;
             this.TxtCodTesis.Size = new System.Drawing.Size(122, 22);
             this.TxtCodTesis.TabIndex = 193;
             // 
@@ -286,7 +285,6 @@ namespace LibFormularios
             this.TxtNroExpediente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.TxtNroExpediente.Location = new System.Drawing.Point(333, 191);
             this.TxtNroExpediente.Name = "TxtNroExpediente";
-            this.TxtNroExpediente.ReadOnly = true;
             this.TxtNroExpediente.Size = new System.Drawing.Size(126, 22);
             this.TxtNroExpediente.TabIndex = 194;
             // 
@@ -418,7 +416,7 @@ namespace LibFormularios
             this.txtCodDocente2.Name = "txtCodDocente2";
             this.txtCodDocente2.Size = new System.Drawing.Size(151, 30);
             this.txtCodDocente2.TabIndex = 256;
-            this.txtCodDocente2.TextChanged += new System.EventHandler(this.btnBuscarDocente2_Click);
+            this.txtCodDocente2.TextChanged += new System.EventHandler(this.txtCodDocente2_TextChanged);
             // 
             // TxtCategoriaDocente2
             // 
@@ -558,7 +556,7 @@ namespace LibFormularios
             this.txtCodDocente1.Name = "txtCodDocente1";
             this.txtCodDocente1.Size = new System.Drawing.Size(151, 30);
             this.txtCodDocente1.TabIndex = 251;
-            this.txtCodDocente1.TextChanged += new System.EventHandler(this.btnBuscarDocente1_Click);
+            this.txtCodDocente1.TextChanged += new System.EventHandler(this.txtCodDocente1_TextChanged);
             // 
             // TxtCategoriaDocente1
             // 
@@ -718,6 +716,7 @@ namespace LibFormularios
             this.BtnNombrarDictaminante.TabIndex = 6;
             this.BtnNombrarDictaminante.Text = "Nombrar Dictaminates";
             this.BtnNombrarDictaminante.UseVisualStyleBackColor = true;
+            this.BtnNombrarDictaminante.Click += new System.EventHandler(this.BtnNombrarDictaminante_Click);
             // 
             // FrmNombrarDictaminantescs
             // 

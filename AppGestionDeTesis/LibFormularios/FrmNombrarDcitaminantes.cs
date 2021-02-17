@@ -18,7 +18,7 @@ namespace LibFormularios
         {
             InitializeComponent();
             oDictaminanteDeTesis = new CDictaminanteDeTesis();
-            //LlenarTesisPendientes();
+            LlenarTesisPendientes();
             InicializarCamposCboNroDocente();
         }
         public void InicializarCamposCboNroDocente()
@@ -50,7 +50,7 @@ namespace LibFormularios
                 GboEvaluador3.Visible = true;
             }
         }
-        /*public void LlenarTesisPendientes()
+        public void LlenarTesisPendientes()
         {
             DgvTesisSinDictaminantes.DataSource = oDictaminanteDeTesis.TesisPendientesDeDictamen();
             DgvTesisSinDictaminantes.Columns["CodTesis"].Visible = false;
@@ -58,8 +58,8 @@ namespace LibFormularios
             /*
             DgvTesisPendientesDeCR.Columns["CodDictamenDeTesis"].Visible = false;
             DgvTesisPendientesDeCR.Columns["CodSustentacionOral"].Visible = false;
-            
-        }*/
+            */
+        }
         private void btnBuscarDocente1_Click(object sender, EventArgs e)
         {
             FrmBuscarDocente A = new FrmBuscarDocente();
@@ -144,7 +144,9 @@ namespace LibFormularios
             TxtCodDictaminantesDeTesis.Text = codigo;
         }
 
-        private void BtnNombrarCR_Click(object sender, EventArgs e)
+        
+
+        private void BtnNombrarDictaminante_Click(object sender, EventArgs e)
         {
             try
             {
@@ -160,7 +162,7 @@ namespace LibFormularios
                     ComisionRevisora.Add(txtCodDocente2.Text);
                     oDictaminanteDeTesis.AgregarDocentesDictaminantes(ComisionRevisora, TxtCodDictaminantesDeTesis.Text);
                     MessageBox.Show("OPERACION REALIZADA EXITOSAMENTE", "CONFIRMACION");
-                    //LlenarTesisPendientes();
+                    LlenarTesisPendientes();
                 }
                 else
                 {

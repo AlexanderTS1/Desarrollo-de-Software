@@ -18,7 +18,7 @@ namespace LibClases
         //select a.NroExpediente, a.CodEvaluacionPlanDeTesis, a.CodTesis, b.Titulo, b.Tema, b.Estado, b.Observaciones from TExpediente a inner join TTesis b on a.CodTesis= b.CodTesis where CodEvaluacionPlanDeTesis!='' and CodDictamenDeTesis = ''
         public DataTable TesisPendientesDeDictamen()
         {
-            string consulta = "select a.NroExpediente, a.CodEvaluacionPlanDeTesis, a.CodTesis, b.Titulo, b.Expecialidad, b.Estado from TDocumentacion a inner join TTesis b on a.CodTesis= b.CodTesis where CodEvaluacionPlanDeTesis='' and CodDictamenDeTesis = ''";
+            string consulta = "select a.NroExpediente, a.CodEvaluacionPlanDeTesis, a.CodTesis, b.Titulo, b.Especialidad, b.Estado from TDocumentacion a inner join TTesis b on a.CodTesis= b.CodTesis where CodDictamenDeTesis = ''";
             aConexion.EjecutarSelect(consulta);
             return aConexion.Datos.Tables[0];
             /*
