@@ -97,7 +97,7 @@ namespace LibClases
         }
         public DataTable ListarDocentesDictaminantes(string pCodDictaminantes)
         {
-            string consulta = "select * from TDictaminantesDeTesis where CodDictamenDeTesis = '" + pCodDictaminantes + "'";
+            string consulta = "select CodDictamenDeTesis from TDictaminantesDeTesis where CodDictamenDeTesis = '" + pCodDictaminantes + "'";
             aConexion.EjecutarSelect(consulta);
             return aConexion.Datos.Tables[0];
         }
